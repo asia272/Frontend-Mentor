@@ -37,7 +37,6 @@ body{
     gap: 1.6rem;
     border-radius: 12px;
     background-color:hsl(0, 0%, 12%) ;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 .img-box{
     height: 80px;
