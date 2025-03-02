@@ -8,6 +8,9 @@
 body{
     background-color: hsl(0, 0%, 8%);;
     color: white;
+    min-height: 100vh;
+    padding: 1rem;
+    min-width: 100vw;
 }
 .main{
     margin: 4rem;
@@ -27,6 +30,7 @@ main h1{
     background-color: inherit;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 
 /* Card Styling */
