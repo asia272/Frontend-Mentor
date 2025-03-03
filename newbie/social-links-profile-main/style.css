@@ -5,7 +5,7 @@
     --lightgray: hsl(0, 0%, 20%);
     --grey: hsl(0, 0%, 12%);
     --black: hsl(0, 0%, 8%);
-    --whtie:hsl(0, 0%, 100%);
+    --white:hsl(0, 0%, 100%);
 }
 *{
     padding: 0;
@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--whtie);
+    color:var(--white);
 }
 .main{
     padding: 2rem;
@@ -36,31 +36,31 @@ body{
     background-color:var(--grey);
 }
 .img-box{
-    height: 80px;
-    width: 80px;
+    height:5rem;
+    width: 5rem;
 }
- img{
+.img-box img{
     display: block;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     border-radius: 50%;
 }
 .boi{
-    font-size: 14px;
-    text-align: center;
+    font-size: 0.8rem;
 }
 .name h4{
     margin: 11px 0px;
     color: var(--green);
 }
 .name h1{
-    font-size:28px ;
+    max-width: 100%;
+    font-size: 1.75rem;
 }
 .links{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 0.9rem;
 }
 .links li{
     list-style: none;
@@ -71,13 +71,15 @@ body{
 }
 .links li a {
     text-decoration: none;
-    color: var(--whtie);
+    color: var(--white);
     background-color:var(--lightgray);
     border-radius: 8px;
     width: 100%;
     padding: 13px 10px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
 
 }
 .links li a:hover{
@@ -86,7 +88,11 @@ body{
 }
 @media (max-width:400px) {
     .main{
+        width: 90vw;
         max-width: 100%;
         padding: 1rem;
+    }
+    .links li a {
+        padding: 10px 8px;
     }
 }
