@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* 
-- Green: hsl(75, 94%, 57%)
-
-- White: hsl(0, 0%, 100%)
-
-- Grey 700: hsl(0, 0%, 20%)
-- Grey 800: hsl(0, 0%, 12%)
-- Grey 900: hsl(0, 0%, 8%) */
-
+:root {
+    --green: hsl(75, 94%, 57%);
+    --lightgray: hsl(0, 0%, 20%);
+    --grey: hsl(0, 0%, 12%);
+    --black: hsl(0, 0%, 8%);
+    --whtie:hsl(0, 0%, 100%);
+}
 *{
     padding: 0;
     margin: 0;
@@ -17,16 +15,15 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    background-color: hsl(0, 0%, 8%);
+    background-color: var(--black);
     min-height: 100vh;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: hsl(0, 0%, 100%);
+    color:var(--whtie);
 }
 .main{
-    background-color: aqua;
     padding: 2rem;
     min-height: auto;
     max-width: 500px;
@@ -36,7 +33,7 @@ body{
     justify-content: center;
     gap: 1.6rem;
     border-radius: 12px;
-    background-color:hsl(0, 0%, 12%) ;
+    background-color:var(--grey);
 }
 .img-box{
     height: 80px;
@@ -54,7 +51,7 @@ body{
 }
 .name h4{
     margin: 11px 0px;
-    color: hsl(75, 94%, 57%);
+    color: var(--green);
 }
 .name h1{
     font-size:28px ;
@@ -74,8 +71,8 @@ body{
 }
 .links li a {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    background-color: hsl(0, 0%, 20%);
+    color: var(--whtie);
+    background-color:var(--lightgray);
     border-radius: 8px;
     width: 100%;
     padding: 13px 10px;
@@ -84,8 +81,8 @@ body{
 
 }
 .links li a:hover{
-    background-color:hsl(75, 94%, 57%) ;
-    color:black ;
+    background-color:var(--green) ;
+    color:var(--black) ;
 }
 @media (max-width:400px) {
     .main{
