@@ -15,7 +15,6 @@ body{
     color:var(--white);
     min-height: 100vh;
     padding: 1rem;
-    background-image: -moz-element(center);
 }
 .main{
     margin: 3rem;
@@ -102,8 +101,9 @@ main h1 span{
 }
 
 .demo a:hover {
-    color:var(--white) ;
-    background-color: var(--black);
+    color: var(--white);
+    background-color: var(--green);
+    transform: scale(1.1);
 }
 @media (max-width: 550px) {
     .main {
@@ -113,7 +113,7 @@ main h1 span{
         font-size: 1.7rem;
     }
     .container{
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
     }
 }
 
