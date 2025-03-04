@@ -9,12 +9,9 @@
 :root {
     --Very-dark-blue: hsl(233, 47%, 7%);
     --Dark-desaturated-blue: hsl(244, 38%, 16%);
-    /*card backgroud*/
     --Soft-violet: hsl(277, 64%, 61%);
-    /*accent*/
     --White: hsl(0, 0%, 100%);
     --Slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75);
-    /*(stat headings)*/
 }
 
 body {
@@ -22,7 +19,6 @@ body {
     font-size: 15px;
     min-height: 100vh;
     background-color: var(--Very-dark-blue);
-    /* color: var(--Slightly-transparent-white-heading); */
     color: white;
     padding: 1rem;
     display: flex;
@@ -30,20 +26,12 @@ body {
     justify-content: center;
 }
 
-/* .lexend-text {
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
-}
-
-.bold-text {
-    font-weight: 700;
-} */
 /* main */
 .main {
     display: flex;
     background-color: var(--Dark-desaturated-blue);
     border-radius: 8px;
-    max-width: 95%;
+    max-width: 90%;
 }
 
 /* content part */
@@ -95,6 +83,15 @@ body {
     flex: 1;
     display: block;
     height: auto;
+    position: relative;
+}
+.img-box::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(277, 94%, 32%);
+    opacity: 0.6;
 }
 .img-box picture{
     height: 100%;
