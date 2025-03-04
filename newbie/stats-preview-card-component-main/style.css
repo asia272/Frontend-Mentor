@@ -139,7 +139,7 @@ img {
     .status{
         flex-direction: column;
     }
-    .heading{
-        font-size: 12px;
+    .heading h1{
+        font-size: 1.4rem;
     }
 }
