@@ -92,6 +92,8 @@ body {
     width: 100%;
     background-color: hsl(277, 94%, 32%);
     opacity: 0.6;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .img-box picture{
     height: 100%;
@@ -104,7 +106,7 @@ img {
     height: 100%;
 }
 
-@media (max-width:700px) {
+@media (max-width:728px) {
     .main {
         flex-direction: column-reverse;
     }
@@ -128,9 +130,16 @@ img {
         justify-content: center;
 
     }
+    .img-box::before{
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 0;
+    }
 }
 @media (max-width:419px) {
     .status{
         flex-direction: column;
+    }
+    .heading{
+        font-size: 12px;
     }
 }
