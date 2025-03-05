@@ -18,8 +18,9 @@ body{
     color: var(--Light-Cyan);
     font-family: 'Manrope', sans-serif;
     font-weight: 800;
-    place-content: center;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 2rem;
 }
 .main{
