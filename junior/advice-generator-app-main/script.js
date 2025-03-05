@@ -7,7 +7,7 @@ let getAdvice = ()=>{
     .then((res)=> res.json())
     .then((data)=>{
         console.log(data.slip.id)
-        quoteBox.innerText = data.slip.advice
+        quoteBox.innerText = `"${data.slip.advice}"`
         AdviceIdBox.innerHTML = `${data.slip.id}`
     })
 }
