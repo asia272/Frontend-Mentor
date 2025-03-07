@@ -31,10 +31,9 @@ This project is a calculator with multiple theme options, built using **HTML, CS
 | Implementing a safe calculation function | Used `match()` to extract tokens and a loop to evaluate expressions instead of `eval()`. |
 | Handling errors like division by zero | Added conditions to check and display an error message if division by zero occurs. |
 
-
-
-live site URL.
-   - Write a brief description of your experience and challenges faced.
+## 🌍 Live Preview
+Check out the live version of the calculator here:  
+🔗 [Live Site](https://asia272.github.io/Frontend-Mentor/intermediate/calculator-app-main/)
 
 ---
 
