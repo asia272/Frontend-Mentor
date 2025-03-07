@@ -31,20 +31,9 @@ This project is a calculator with multiple theme options, built using **HTML, CS
 | Implementing a safe calculation function | Used `match()` to extract tokens and a loop to evaluate expressions instead of `eval()`. |
 | Handling errors like division by zero | Added conditions to check and display an error message if division by zero occurs. |
 
-## 📌 How to Submit on Frontend Mentor
-1. **Push Your Code to GitHub**
-   - Create a new repository on GitHub.
-   - Push your project files to this repository.
-   - Ensure `index.html`, `style.css`, and `script.js` files are included.
 
-2. **Deploy Your Project**
-   - Use **GitHub Pages, Vercel, or Netlify** to host your project.
-   - Get the **live preview link**.
 
-3. **Submit Your Solution**
-   - Go to **Frontend Mentor**.
-   - Click on the challenge you completed.
-   - Click **"Submit Solution"** and paste your GitHub repository link and live site URL.
+live site URL.
    - Write a brief description of your experience and challenges faced.
 
 ---
