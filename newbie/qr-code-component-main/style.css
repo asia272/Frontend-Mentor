@@ -31,16 +31,19 @@ body{
     align-content: center;
     justify-content: center;
     width: 32%;
-    border-radius: 13px;
+    border-radius: 15px;
     min-width: 320px;
 }
 .main img{
-    width: 100%;
+    width: 90%;
     border-radius: 8px;
+    display: block;
+    margin: 0 auto;
 }
 .main h2{
     color: var(--heading);
     margin-bottom: 1rem;
+    font-weight: 700;
 }
 .main p {
     text-align: center;
