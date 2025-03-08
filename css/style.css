@@ -4,19 +4,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    --black:hsl(0, 0%, 8%);
+    --black: hsl(0, 0%, 8%);
     --white: hsl(0, 0%, 100%);
     --green: hsl(156, 94%, 57%);
-    --dark-black:hsl(0, 8%, 3%);
+    --dark-black: hsl(0, 8%, 3%);
 }
-body{
-    background-color:var(--black);
+
+body {
+    background-color: var(--black);
     background: linear-gradient(135deg, hsl(0, 0%, 5%) 20%, hsl(153, 21%, 8%) 80%);
-    color:var(--white);
+    color: var(--white);
     min-height: 100vh;
     padding: 1rem;
 }
-.main{
+
+.main {
     margin: 3rem;
     display: flex;
     flex-direction: column;
@@ -25,19 +27,22 @@ body{
     align-items: center;
 
 }
-main h1{
+
+main h1 {
     text-align: center;
 }
-main h1 span{
+
+main h1 span {
     color: var(--green);
     border-bottom: 2px dashed var(--white);
-    position:relative;
+    position: relative;
 }
 
 /* Container for Grid Layout */
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Responsive grid */
     gap: 2rem;
     background-color: inherit;
     max-width: 100%;
@@ -73,53 +78,72 @@ main h1 span{
     height: auto;
     object-fit: contain;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.1);
 }
+
 /* Title */
 .title {
     font-size: 1.2rem;
-    margin: 15px 0 ;
+    margin: 15px 0;
     font-size: 1rem;
 }
-.content{
+
+.content {
     padding: 1rem;
     text-align: center;
 }
+
 /* Demo Button */
-.demo a {
+.links a  {
     display: inline-block;
     text-decoration: none;
-    color:var(--dark-black);
+    color: var(--dark-black);
     padding: 8px 12px;
     border-radius: 5px;
     transition: all 0.3s ease-in;
     font-weight: 800;
-    margin: 3px 0 15px 0;
     font-size: 1rem;
-    background-color: var(--green);
 }
 
-.demo a:hover {
+.links {
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.links a:hover {
     color: var(--white);
     background-color: var(--green);
     transform: scale(1.1);
 }
+.demo-link{
+    background-color: var(--green);
+}
+.demo-link:hover{
+    background-color: var(--white);
+}
+.code-link{
+  background-color: var(--white);
+}
 @media (max-width: 550px) {
     .main {
-        margin: 2rem 0.5rem; 
+        margin: 2rem 0.5rem;
     }
+
     h1 {
         font-size: 1.7rem;
     }
-    .container{
+
+    .container {
         grid-template-columns: 1fr;
     }
+    h3{
+     font-size: 15px;   
+    }
 }
-
-
-
-
-
-
-
