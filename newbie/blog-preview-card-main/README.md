@@ -5,8 +5,8 @@ This is a solution to the **Blog Preview Card** challenge on [Frontend Mentor](h
 ## 🚀 Overview
 
 ### 🔗 Live Demo
-[View Live Site](#)  
-*(https://asia272.github.io/Frontend-Mentor/newbie/blog-preview-card-main/)*
+[View Live Site](https://asia272.github.io/Frontend-Mentor/newbie/blog-preview-card-main/)
+
 
 ## 🔧 Built With
 - Semantic **HTML5** markup
