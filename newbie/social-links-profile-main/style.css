@@ -80,11 +80,12 @@ body{
     font-size: 0.8rem;
     display: block;
     text-align: center;
-
+    transition: all 0.5s ease-in-out;
 }
-.links li a:hover{
-    background-color:var(--green) ;
-    color:var(--black) ;
+.links li a:hover,
+.links li a:focus {
+    background-color: var(--green);
+    color: var(--black);
 }
 @media (max-width:400px) {
     .main{
