@@ -6,7 +6,7 @@ This is a solution to the **Blog Preview Card** challenge on [Frontend Mentor](h
 
 ### 🔗 Live Demo
 [View Live Site](#)  
-*(Replace # with your live project link)*
+*(https://asia272.github.io/Frontend-Mentor/newbie/blog-preview-card-main/)*
 
 ## 🔧 Built With
 - Semantic **HTML5** markup
