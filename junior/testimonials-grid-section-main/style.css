@@ -48,7 +48,6 @@ h4 +p{
     grid-area: one;
     background-color:var(--purple) ;
     background-image: url("images/bg-pattern-quotation.svg");
-    background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: calc(80% + 40px);
 
@@ -132,4 +131,16 @@ img{
             background-position: top right;
         }
     
+}
+@media (min-width: 900px) {
+    .one {
+        background-size: 100px; /* Fixed size for larger screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .one {
+        background-size: 35%;
+        background-position: top right 40px; /* Moves the image 40px from the right */
+    }
 }
