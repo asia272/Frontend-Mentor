@@ -3,5 +3,7 @@
 This repository contains my solutions for **Frontend Mentor** challenges.  
 
 ## 📌 Challenge Categories:  
-- 🟢 **Junior Level** – Beginner-friendly projects  
-- 🔵 **Intermediate Level** – More complex projects  
+- 🟢 Newbie Level – Simple projects for absolute beginners 
+- 🔵 Junior Level – Beginner-friendly projects with moderate complexity
+- 🔴 Intermediate Level – More challenging projects for skill improvement
+
