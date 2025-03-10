@@ -126,7 +126,10 @@ img{
         'four'
         'five';
     }
-    .one{
-        background-image: none;
-    }
+  
+        .one {
+            background-size: 35%;
+            background-position: top right;
+        }
+    
 }
