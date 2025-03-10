@@ -26,7 +26,7 @@ body{
 }
 .main{
     display: grid;
-    gap: 1rem;
+    gap: 1.55rem;
     grid-template-areas: 
     'one one one one one two five'
     'three four four four four four five'
@@ -102,8 +102,8 @@ color: #cfcfcf  !important;
     color: #676d7e;
 }
 img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 .four  img{
