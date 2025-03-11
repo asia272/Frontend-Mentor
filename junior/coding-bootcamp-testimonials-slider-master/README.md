@@ -17,8 +17,9 @@ This is a simple interactive web component that allows users to switch between d
 2. Click the **left** button to show the first content.
 3. Click the **right** button to switch to the second content.
 
-## Live Demo
-[View Online](#) (Add your live link here)
+# Live Demo
+[View Online](https://asia272.github.io/Frontend-Mentor/junior/coding-bootcamp-testimonials-slider-master/)
+
 
 ## Contributing
 Feel free to fork and improve the project!
