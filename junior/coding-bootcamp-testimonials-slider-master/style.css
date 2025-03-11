@@ -53,7 +53,6 @@ body {
     display: block;
     border-radius: 5px;
 }
-
 .buttons {
     margin: 1rem;
     text-align: center;
@@ -89,6 +88,9 @@ button{
 @media (max-width:500px) {
     .box {
         flex-direction: column-reverse;
-
+        text-align: center;
+    }
+    #name span{
+        display: block;
     }
 }
