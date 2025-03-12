@@ -1,19 +1,21 @@
 let btnLeft = document.getElementById("left");
 let btnRight = document.getElementById("right");
-let body = document.querySelector("body");
-let boxOne = document.getElementById("one"); 
-let boxTwo = document.getElementById("two"); 
+let boxOne = document.getElementById("one");
+let boxTwo = document.getElementById("two");
 
-btnLeft.addEventListener("click", () => {
-    boxOne.style.display = "flex";
-    boxTwo.style.display = "none";
-
-});
+let slides = [boxOne, boxTwo];
+let crntIdx = 0;
 
 btnRight.addEventListener("click", () => {
-    boxOne.style.display = "none";
-    boxTwo.style.display = "flex";
+    slides[crntIdx].style.display = "none";
+    crntIdx = (crntIdx + 1) % slides.length;
+    slides[crntIdx].style.display = "flex"
+});
 
+btnLeft.addEventListener("click", () => {
+    slides[crntIdx].style.display = "none";
+    crntIdx = (crntIdx - 1 +slides.length) % slides.length;
+    slides[crntIdx].style.display = "flex"
 });
 
 
