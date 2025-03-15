@@ -42,15 +42,15 @@ formData.addEventListener("submit", (e) => {
     // Function to show error message
     function showError(inputField, message) {
         let label = inputField.previousElementSibling;
-        if (label) label.style.color = "red";
+        if (label) label.style.color = "hsl(0, 100%, 67%)";
 
         let error = document.createElement("span");
         error.classList.add("error");
         error.style.color = "red";
         error.innerText = message;
         inputField.insertAdjacentElement("afterend", error);
-        inputField.style.borderColor = "red";
-        inputField.style.outlineColor = "red";
+        inputField.style.borderColor = "hsl(0, 100%, 67%)";
+        inputField.style.outlineColor = "hsl(0, 100%, 67%)";
     }
 
     // Function to reset styles
