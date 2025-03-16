@@ -48,6 +48,9 @@ body{
     bottom: -1.4rem;
     transform: translateX(-50%);
 }
+#advice-icon-btn:hover{
+    cursor: pointer;
+}
 #advice-icon-btn:active{
     box-shadow: 0px 0px 20px   var(--Neon-Green);
 }
