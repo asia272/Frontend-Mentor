@@ -17,4 +17,16 @@ This is a solution to the **Profile Card Component** challenge from [Frontend Me
 
 ## 🎨 Background Image Issue & Solution
 
-Initially, I faced an issue **setting multiple background images** in CSS. To fix it, I used
+Initially, I faced an issue **setting multiple background images** in CSS. To fix it, I used:  
+
+1️⃣ **Multiple background images** in `background-image`.  
+2️⃣ **Separate positioning** using `background-position`.  
+3️⃣ **Media queries** to adjust images for smaller screens.
+
+### **CSS Fix:**
+```css
+background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+background-repeat: no-repeat, no-repeat;
+background-position: top -580px left -530px, bottom -770px right -400px;
+background-size: 1000px, 1000px;
+
