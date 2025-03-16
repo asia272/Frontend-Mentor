@@ -29,7 +29,7 @@ body {
     background-color: var(--White);
     padding: 3rem;
     border-radius: 14px;
-    border-bottom-right-radius: 8rem;
+    border-bottom-right-radius: 10rem;
     display: flex;
     gap:2.55rem;
     max-width: 650px;
