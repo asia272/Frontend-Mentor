@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top -580px left -530px, bottom -770px right -400px;
     background-size:1000px, 1000px;
+
 }
 
 
@@ -74,7 +75,7 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
     align-items: center;
 }
 
@@ -88,7 +89,7 @@ h2 {
 
 .info span {
     font-size: 14px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 @media (max-width:650px) {
     body{
