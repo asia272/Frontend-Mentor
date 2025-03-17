@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Frontend-Mentor/junior/contact-form/', // Yeh path sahi set karo
+  base: '/Frontend-Mentor/junior/contact-form/',
 });
