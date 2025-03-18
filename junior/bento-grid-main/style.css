@@ -50,11 +50,11 @@ body {
 
 /* same styling of all box */
 .box {
-    padding: 1.6rem;
     border-radius: 8px;
     box-shadow: 2px 13px 15px white;
+    font-size: 1.1rem; 
+    padding: 2rem;
 }
-
 /* same stying of some box */
 .one,
 .two,
@@ -218,4 +218,8 @@ img {
         width: 80%;
     }
 
+}
+.box {
+    font-size: 1.1rem; /* Increased font size */
+    padding: 2rem; /* Slightly increased padding */
 }

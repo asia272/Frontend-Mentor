@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+.main{
+    display: flex;
+    width: 80%;
+}
+.column{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+button{
+    border: none;
+    padding:1rem;
+    border-radius: 2rem;
+}
+.sedans{
+    background-color: orange;
+}
+.suvs{
+    background-color: aquamarine;
+}
+.lux{
+    background-color: cadetblue;
+}
