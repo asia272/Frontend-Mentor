@@ -1,36 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Big+Shoulders+Display:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.6;
 }
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* For paragraphs */
+    --very-light-gray: hsl(0, 0%, 95%); /* For background, headings, buttons */
+}
+
+  
+  h1, h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+  }
 body{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color:var( --very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 2rem 0;
 }
 .main{
     display: flex;
     width: 80%;
 }
 .column{
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    padding: 2.55rem;
+}
+.column h1{
+    margin: 1.55rem 0;
+    text-transform: uppercase;
+    color: var(--very-light-gray);
+}
+.column p{
+    font-size: 15px;
+    color: var(--transparent-white);
 }
 button{
     border: none;
-    padding:1rem;
+    padding:0.75rem 2rem;
     border-radius: 2rem;
+    margin-top: 6rem;
+    background-color:var( --very-light-gray) !important;
+    cursor: pointer;
 }
 .sedans{
-    background-color: orange;
+    background-color:var( --bright-orange);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.sedans button{
+    color: var(--bright-orange);
 }
 .suvs{
-    background-color: aquamarine;
+    background-color: var(--dark-cyan);
+}
+.suvs button{
+    color: var(--dark-cyan);
 }
 .lux{
-    background-color: cadetblue;
+    background-color:var(--very-dark-cyan);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.lux button{
+    color: var(--very-dark-cyan);
+}
+button:hover,
+button:active {
+    background-color: transparent !important;
+    outline: 1px solid white;
+    color: var(--transparent-white);
+}
+
+@media (max-width:700px) {
+    .main{
+        flex-direction: column;
+        width: 90%;
+    }
+    button{
+        margin-top: 1rem;
+    }
+    .sedans{
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+    }
+    .lux{
+        background-color:var(--very-dark-cyan);
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
 }
