@@ -22,7 +22,5 @@ Simply open the HTML file in a browser to view the structured layout.
 - **Spacing & Gaps**: Some elements had inconsistent spacing.
   - **Solution**: Utilized `gap` property for uniform spacing.
 
-## Live Demo
-[Provide Link if hosted]
-.
-
+## Live Demo  
+[View Project](https://asia272.github.io/Frontend-Mentor/junior/bento-grid-main/)  
