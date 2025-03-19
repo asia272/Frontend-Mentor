@@ -23,18 +23,10 @@ body{
     color: white;
     padding: 2rem;
 }
-.main{
-    width: 70%;
-    display: grid;
-    border-radius: 6px;
-    grid-template-areas: 
-    "one one"
-    "two  three" ;
-}
+
 .main {
-    width: 85%;
+    width: 688px;
     display: grid;
-    border-radius: 6px;
     grid-template-areas: 
         "one one"
         "two three";
@@ -106,7 +98,6 @@ button{
             'two'
             'three';
             grid-template-columns: 1fr;
-    
     }
     .two{
         border-bottom-left-radius: 0;
