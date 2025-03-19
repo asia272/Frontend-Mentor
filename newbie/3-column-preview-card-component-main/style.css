@@ -29,7 +29,7 @@ body{
 }
 .main{
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 .column{
     padding: 2.55rem;
@@ -50,6 +50,7 @@ button{
     margin-top: 6rem;
     background-color:var( --very-light-gray) !important;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 .sedans{
     background-color:var( --bright-orange);
