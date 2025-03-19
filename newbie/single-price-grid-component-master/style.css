@@ -36,17 +36,20 @@ body{
     grid-area: one;
     background-color: white;
     color: gray;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .two{
     grid-area: two;
     background-color: var(--cyan);
+    border-bottom-left-radius: 8px;
 }
 
 .three{
     grid-area: three;
     background-color:hsl(178, 43%, 58%);
     color: var(--light-gray);
-  
+   border-bottom-right-radius: 8px;
 }
 .section{
     padding: 3rem;
@@ -93,5 +96,11 @@ button{
             'two'
             'three';
     
+    }
+    .two{
+        border-bottom-left-radius: 0;
+    }
+    .three{
+        border-bottom-left-radius: 8px;
     }
 }
