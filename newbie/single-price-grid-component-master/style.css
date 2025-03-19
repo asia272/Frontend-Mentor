@@ -31,6 +31,16 @@ body{
     "one one"
     "two  three" ;
 }
+.main {
+    width: 85%;
+    display: grid;
+    border-radius: 6px;
+    grid-template-areas: 
+        "one one"
+        "two three";
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .one{
     grid-area: one;
@@ -95,6 +105,7 @@ button{
             'one'
             'two'
             'three';
+            grid-template-columns: 1fr;
     
     }
     .two{
