@@ -68,7 +68,7 @@ body{
 }
 button{
     border-radius: 8px;
-    padding: 1rem;
+    padding:0.90rem 1rem;
     border: none;
     background-color: var(--bright-yellow);
     color: white;
