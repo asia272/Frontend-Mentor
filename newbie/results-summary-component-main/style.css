@@ -114,7 +114,7 @@ color: gray;
 button{
     border: none;
     padding: 1rem;
-    border-radius: 23px;
+    border-radius: 36px;
     cursor: pointer;
     color: var(--white);
     background-color: var(--dark-gray-blue);

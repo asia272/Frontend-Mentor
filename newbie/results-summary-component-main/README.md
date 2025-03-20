@@ -14,12 +14,7 @@ This project is a **Summary Component** that displays different category scores 
 - **CSS** - Styling and responsive design.
 - **JavaScript** - Dynamically inserting data into the DOM.
 
-## Usage
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/asia272/Frontend-Mentor.git
-   ```
-2. Open the project folder and launch `index.html` in your browser.
+
 
 ## Code Structure
 ### **CSS Styling**
@@ -32,8 +27,6 @@ This project is a **Summary Component** that displays different category scores 
 - Dynamically creates elements and inserts them into the summary section.
 - Assigns appropriate colors and styles based on categories.
 
-## Screenshot
-![Summary Component Preview](./newbie/results-summary-component-main/design/desktop-design.jpg)
 
 ## Live Demo & Code
 - [Live Demo](https://asia272.github.io/Frontend-Mentor/newbie/results-summary-component-main/)
