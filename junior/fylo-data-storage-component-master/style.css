@@ -9,8 +9,6 @@
 :root {
 
     --Gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-
-
     --Pale-Blue: hsl(243, 100%, 93%);
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
@@ -37,7 +35,7 @@ body {
     justify-content: center;
     align-items: end;
     gap: 2rem;
-    width: 100%;
+    width: 90%;
 }
 
 section {
@@ -47,7 +45,7 @@ section {
 }
 
 .img-box {
-    /* width: 40%; */
+    width: 40%;
     border-top-right-radius: 100px;
     display: flex;
     flex-direction: column;
@@ -195,7 +193,7 @@ img {
     margin-bottom: 1rem;
 }
 
-@media (max-width:677px) {
+@media (max-width:772px) {
     body {
         background-image: url("./images/bg-mobile.png");
         background-position: top;
@@ -210,19 +208,15 @@ img {
         gap: 1rem;
 
     }
-
     .img-box {
         width: 100%;
     }
-
     .two {
         width: 100%;
     }
-
     .top-gb::before {
         display: none;
     }
-
     .top-gb {
         position: absolute;
         bottom: -40px;
@@ -231,7 +225,6 @@ img {
         right: auto;
         top: auto;
     }
-
     .content {
         text-align: center;
     }
