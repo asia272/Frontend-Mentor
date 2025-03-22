@@ -35,7 +35,7 @@ body {
     justify-content: center;
     align-items: end;
     gap: 2rem;
-    width: 80%;
+    width: 77%;
 }
 
 section {
@@ -85,7 +85,8 @@ img {
 }
 
 .logo {
-    max-width: 58%;
+    width: 140px;
+
 }
 
 .top-gb {
