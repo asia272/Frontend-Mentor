@@ -194,7 +194,7 @@ img {
     margin-bottom: 1rem;
 }
 
-@media (max-width:772px) {
+@media (max-width:777px) {
     body {
         background-image: url("./images/bg-mobile.png");
         background-position: top;
