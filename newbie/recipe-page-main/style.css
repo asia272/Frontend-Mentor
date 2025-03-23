@@ -30,15 +30,19 @@ body{
 }
 h1{
     color: var(--stone-900);
+    letter-spacing: 1px;
 }
 h1, h2, h3 {
     font-family: var(--font-serif);
+}
+h3{
+    font-family: "Outfit";
 }
 h2{
     margin: 0.88rem 0;
 }
 .main{
-    max-width: 550px;
+    max-width: 650px;
    background-color: var(--white);
     border-radius: 14px;
     padding: 1.88rem;
