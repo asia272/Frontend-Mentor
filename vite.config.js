@@ -11,7 +11,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@static": resolve(__dirname, "public/static-projects") 
+      "@static": resolve(__dirname, "public/static_projects") 
     }
   },
   publicDir: "public" 
