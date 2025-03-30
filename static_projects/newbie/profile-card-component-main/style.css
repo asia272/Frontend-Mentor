@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-cyan);
+    color: var(--very-dark-desaturated-blue);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    padding: 1rem;
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -580px left -530px, bottom -770px right -400px;
+    background-size:1000px, 1000px;
+
+}
+
+
+.main {
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+}
+.img-box {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 150px;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    position: relative;
+}
+
+.victor-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2.48rem;
+    padding: 2rem;
+}
+.img-box img {
+
+    width: 30%;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    bottom: -55px;
+    transform: translateX(50%);
+    right: 50%;
+}
+.profile-info {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+span {
+    color: var(--dark-gray) !important;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.info span {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+@media (max-width:650px) {
+    body{
+        background-position: top -580px left -530px, bottom -700px right -600px;
+        background-size:800px, 1000px; 
+    }
+}
+@media (max-width:500px) {
+    body{
+        background-position: top -580px left -530px, bottom -700px right -700px;
+    }
+
+}
