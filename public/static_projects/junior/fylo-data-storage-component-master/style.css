@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --Gradient: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    --Pale-Blue: hsl(243, 100%, 93%);
+    --Grayish-Blue: hsl(229, 7%, 55%);
+    --Dark-Blue: hsl(228, 56%, 26%);
+    --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+    padding: 3rem;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("./images/bg-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+    width: 77%;
+}
+
+section {
+    background-color: var(--Dark-Blue);
+    padding: 2.77rem 3rem;
+    border-radius: 10px;
+}
+
+.img-box {
+    width: 40%;
+    border-top-right-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.icons-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    background-color: var(--Very-Dark-Blue);
+    padding: 0.99rem;
+    border-radius: 13px;
+    transition: all 0.2s ease-in;
+}
+
+.icon:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(221.085, 219.3, 255, 0.2);
+    transform: translateY(-8px);
+}
+
+.two {
+    width: 60%;
+    position: relative;
+}
+
+.two p {
+    font-size: 14px;
+}
+
+img {
+    display: block;
+}
+
+.logo {
+    width: 140px;
+
+}
+
+.top-gb {
+    position: absolute;
+    top: -54px;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    right: 34px;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.top-gb::before {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 35px solid white;
+    border-left: 50px solid transparent;
+    border-right: 0 solid transparent;
+}
+
+.gb-h {
+    font-size: 37px;
+}
+
+.gb-p {
+    color: var(--Grayish-Blue);
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content p {
+    color: var(--Pale-Blue);
+}
+
+.content span {
+    font-weight: 600;
+    color: white;
+}
+
+.slider {
+    width: 100%;
+    background-color: var(--Very-Dark-Blue);
+    height: 0.80rem;
+    border-radius: 50px;
+    position: relative;
+}
+
+@keyframes expandWidth {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.slider-ovrlay {
+    position: absolute;
+    width: 75%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--Gradient);
+    border-radius: inherit;
+    transition: all 0.3s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5),
+        -2px 0px 5px rgba(0, 0, 0, 0.5),
+        0px 2px 5px rgba(0, 0, 0, 0.5),
+        0px -2px 5px rgba(0, 0, 0, 0.5);
+    animation: expandWidth 0.8s ease-out forwards;
+}
+
+
+.slider-ovrlay::before {
+    position: absolute;
+    content: "";
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.gb-box {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:777px) {
+    body {
+        background-image: url("./images/bg-mobile.png");
+        background-position: top;
+        background-size: cover;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        min-width: 300px;
+        gap: 1rem;
+
+    }
+    .img-box {
+        width: 100%;
+    }
+    .two {
+        width: 100%;
+    }
+    .top-gb::before {
+        display: none;
+    }
+    .top-gb {
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        right: auto;
+        top: auto;
+    }
+    .content {
+        text-align: center;
+    }
+}

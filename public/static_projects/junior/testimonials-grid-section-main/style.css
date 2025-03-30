@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+:root{
+    --body-bg:  #f6f5f6;
+    --White: hsl(0, 0%, 100%);
+    --purple: hsl(263, 55%, 52%);
+    --Grey : hsl(217, 19%, 35%);
+    --Dark-blue: hsl(219, 29%, 14%);
+    --Black: hsl(0, 0%, 7%);
+    --shadow: hsl(0, 0%, 81%);
+    --light-gray: hsl(0, 0%, 81%);
+}
+body{
+    min-height: 100vh;
+    padding: 3rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: var(--body-bg);
+    font-size: 14px;
+    font-weight: 600;
+}
+.main{
+    display: grid;
+    gap: 1.55rem;
+    grid-template-areas: 
+    'one one one one one two five'
+    'three four four four four four five'
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0.77rem 2.4rem var(--shadow);
+}
+
+h4 +p{
+    font-size: 12px;
+}
+
+.one{
+    grid-area: one;
+    background-color:var(--purple) ;
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: calc(80% + 40px);
+
+}
+.one h3 {
+    color: var(--White);
+}
+.one h4{
+    color: var(--White);
+}
+.one h3{
+    font-size: 21px;
+}
+h4{
+    font-size: 17px;
+ }
+.box p {
+    color: var(--light-gray);
+}
+.two{
+    grid-area: two;
+    background-color:var(--Grey);
+    color: var(--White);
+}
+.three{
+    grid-area: three;
+    background-color: var(--White);
+    color: #48556a;
+}
+.three p{
+    color: #676d7e;
+}
+.four{
+    grid-area: four;
+    background-color: var(--Dark-blue);
+    color: var(--White);
+}
+.four p{
+    color: var(--White);
+}
+.four h3{
+color: #cfcfcf  !important;
+}
+.five{
+    grid-area: five;
+    background-color: #fff;
+    color: #48556a;
+}
+
+.five p{
+    color: #676d7e;
+}
+img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.four  img{
+    border: 3px solid var(--purple);
+}
+.one img{
+    border: 3px solid #a775f1;;
+}
+.avater-box{
+    display: flex;
+    align-items: center;
+    gap: 1.30rem;
+}
+@media (max-width:600px){
+    .main{
+        grid-template-areas: 
+        'one'
+        'two'
+        'three'
+        'four'
+        'five';
+    }
+  
+        .one {
+            background-size: 35%;
+            background-position: top right;
+        }
+    
+}
+@media (min-width: 900px) {
+    .one {
+        background-size: 100px; /* Fixed size for larger screens */
+    }
+}
+
+@media (max-width: 600px) {
+    .one {
+        background-size: 35%;
+        background-position: top right 40px; /* Moves the image 40px from the right */
+    }
+}

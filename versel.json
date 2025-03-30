@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "src": "/static-projects/(.*)", "dest": "/static-projects/$1" },
+    { "src": "/static-projects/(.*)", "dest": "/public/static-projects/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
