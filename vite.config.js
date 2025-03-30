@@ -4,15 +4,15 @@ import { resolve } from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // Keep base as root
+  base: "/", 
   build: {
     outDir: "dist",
-    assetsDir: "assets" // Keeps built assets organized
+    assetsDir: "assets"
   },
   resolve: {
     alias: {
-      "@static": resolve(__dirname, "public/static_projects") 
+      "@static": resolve(__dirname, "public/static_projects") // ✅ Folder name static_projects hai
     }
   },
-  publicDir: "public" 
+  publicDir: "public" // ✅ Ensure public directory is served correctly
 });
