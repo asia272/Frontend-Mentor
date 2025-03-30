@@ -1,7 +1,6 @@
 {
-  "routes": [
-    { "src": "/static_projects/(.*)", "dest": "/static_projects/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/static_projects/(.*)", "destination": "/static_projects/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
-

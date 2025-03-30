@@ -1,18 +1,19 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
-import { resolve } from "path";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", 
+  server: {
+    port: 3000,
+  },
   build: {
-    outDir: "dist",
-    assetsDir: "assets"
+    outDir: 'dist',
   },
   resolve: {
     alias: {
-      "@static": resolve(__dirname, "public/static_projects") // ✅ Folder name static_projects hai
-    }
+      '@': '/src',
+      '@static': '/public/static_projects', // ✅ Static projects ka alias
+    },
   },
-  publicDir: "public" // ✅ Ensure public directory is served correctly
+  publicDir: "public" // ✅ Public folder ensure karo
 });
