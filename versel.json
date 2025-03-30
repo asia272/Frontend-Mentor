@@ -1,6 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/static_projects/(.*)", "destination": "/static_projects/$1" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    { "src": "/static_projects/(.*)", "dest": "/public/static_projects/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
