@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --lightgray: hsl(0, 0%, 20%);
+    --grey: hsl(0, 0%, 12%);
+    --black: hsl(0, 0%, 8%);
+    --white:hsl(0, 0%, 100%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--black);
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--white);
+}
+.main{
+    padding: 2rem;
+    min-height: auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    border-radius: 12px;
+    background-color:var(--grey);
+}
+.img-box{
+    height:5rem;
+    width: 5rem;
+}
+.img-box img{
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.boi{
+    font-size: 0.8rem;
+}
+.name h4{
+    margin: 11px 0px;
+    color: var(--green);
+}
+.name h1{
+    max-width: 100%;
+    font-size: 1.75rem;
+}
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+.links li{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.links li a {
+    text-decoration: none;
+    color: var(--white);
+    background-color:var(--lightgray);
+    border-radius: 8px;
+    width: 100%;
+    padding: 13px 10px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.links li a:hover,
+.links li a:focus {
+    background-color: var(--green);
+    color: var(--black);
+}
+@media (max-width:400px) {
+    .main{
+        width: 90vw;
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .links li a {
+        padding: 10px 8px;
+    }
+}
