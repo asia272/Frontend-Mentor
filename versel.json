@@ -1,8 +1,8 @@
 {
   "routes": [
     { "src": "/static_projects/(.*)", "dest": "/public/static_projects/$1" },
+    { "src": "/react-projects/react-solutions", "dest": "/react-projects/react-solutions/dist/index.html" },
     { "src": "/react-projects/react-solutions/(.*)", "dest": "/react-projects/react-solutions/dist/$1" },
-  
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
