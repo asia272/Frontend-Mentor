@@ -1,8 +1,12 @@
 {
-  "routes": [
-    { "src": "/static_projects/(.*)", "dest": "/public/static_projects/$1" },
-    { "src": "/react-projects/react-solutions", "dest": "/react-projects/react-solutions/dist/index.html" },
-    { "src": "/react-projects/react-solutions/(.*)", "dest": "/react-projects/react-solutions/dist/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    {
+      "source": "/static_projects/(.*)",
+      "destination": "/public/static_projects/$1"
+    },
+    {
+      "source": "/react-projects/:project/(.*)",
+      "destination": "/react-projects/:project/dist/index.html"
+    }
   ]
 }
