@@ -1,7 +1,10 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/react-projects/react-solutions/',
+  build: {
+    outDir: 'dist', // Make sure the output folder is 'dist'
+    rollupOptions: {
+      input: './index.html', // Ensure that 'index.html' is the entry point
+    },
+  },
 });
