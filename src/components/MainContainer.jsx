@@ -7,7 +7,7 @@ const MainContainer = () => {
        
             <main>
                 <h1>My <span> Frontend Mentor</span> Solutions</h1>
-                <div class="container">
+                <div className="container">
                     <Card/>
                 </div>
             </main>
