@@ -119,6 +119,20 @@ export const challenges = [
         level: "junior"
     },
     {
+        title: "Bento Grid Main",
+        image: "/react-projects/bento-grid-main/public/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/bento-grid-main/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/bento-grid-main",
+        level: "intermediate"
+    },
+    {
+        title: "Fly Storage App",
+        image: "/react-projects/flystorage-app/public/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/flystorage-app/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/flystorage-app",
+        level: "intermediate"
+    },    
+    {
         title: "Calculator App",
         image: "/static-projects/intermediate/calculator-app-main/desktop-preview.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/intermediate/calculator-app-main/",
