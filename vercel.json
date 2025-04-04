@@ -11,6 +11,10 @@
     {
       "source": "/react-projects/:project/(.*)",
       "destination": "/react-projects/:project/dist/$1"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"  
     }
   ]
 }
