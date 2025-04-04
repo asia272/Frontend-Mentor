@@ -78,9 +78,16 @@ export const challenges = [
     },
     {
         title: "Four Card Feature Section",
-        image: "/static-projects/newbie/four-card-feature-section-master/design/desktop-preview.jpg",
-        liveDemo: "https://asia272.vercel.app/static_projects/newbie/four-card-feature-section-master/",
+        image: "/static-projects/newbie/four-card-feature-section-master/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/newbie/four-card-feature-section-master/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/newbie/four-card-feature-section-master",
+        level: "newbie"
+    },
+    {
+        title: "Results Summary Card",
+        image: "/static-projects/newbie/results-summary-component-main/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/newbie/four-card-feature-section-master/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/newbie/four-card-feature-section-master/",
         level: "newbie"
     },
     {
@@ -99,8 +106,8 @@ export const challenges = [
     },
     {
         title: "Coding Bootcamp Testimonials Slider",
-        image: "/static-projects/junior/coding-bootcamp-testimonials-slider-master/design/desktop-design-slide-1.jpg",
-        liveDemo: "https://asia272.vercel.app/static_projects/junior/coding-bootcamp-testimonials-slider-master/",
+        image: "/static-projects/junior/coding-bootcamp-testimonials-slider-master/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/junior/coding-bootcamp-testimonials-slider-master/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/junior/coding-bootcamp-testimonials-slider-master",
         level: "junior"
     },
@@ -119,17 +126,10 @@ export const challenges = [
         level: "junior"
     },
     {
-        title: "Bento Grid Main",
-        image: "/react-projects/bento-grid-main/public/preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/bento-grid-main/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/bento-grid-main",
-        level: "intermediate"
-    },
-    {
         title: "Fly Storage App",
-        image: "/react-projects/flystorage-app/public/preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/flystorage-app/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/flystorage-app",
+        image: "/static-projects/junior/fylo-data-storage-component-master/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/junior/fylo-data-storage-component-master/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/junior/fylo-data-storage-component-master",
         level: "intermediate"
     },    
     {
