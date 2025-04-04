@@ -110,5 +110,12 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/intermediate/calculator-app-main/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/intermediate/calculator-app-main",
         level: "intermediate"
+    },
+    {
+        title: "contact Form",
+        image: "",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/contact-form/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/contact-form",
+        level: "intermediate"
     }
 ];
