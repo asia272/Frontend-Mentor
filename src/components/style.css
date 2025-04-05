@@ -19,15 +19,13 @@ body {
 }
 
 .main {
-    margin: 3rem;
+    margin: 1rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-items: center;
-
 }
-
 main h1 {
     text-align: center;
 }
@@ -37,12 +35,47 @@ main h1 span {
     border-bottom: 2px dashed var(--white);
     position: relative;
 }
+.btns{
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btns button{
+    border: none;
+    padding: 0.46rem 1rem;
+    border-radius: 23px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btns button:active{
+    transform: scale(0.94);
+}
+.active{
+    background-color: var(--green);
+}
+.searchSolution {
+    width: 60%;
+    border: 1px solid #ccc; /* A default border */
+    border-radius: 33px;
+    padding: 20px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+    /* align-self: flex-start; */
+}
+
+.searchSolution:focus {
+    border-color: var(--green); 
+    box-shadow: 0 0 5px 2px var(--green); 
+}
+
 
 /* Container for Grid Layout */
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* Responsive grid */
     gap: 2rem;
     background-color: inherit;
     max-width: 100%;
@@ -59,7 +92,7 @@ main h1 span {
     flex-direction: column;
     align-items: center;
     filter: drop-shadow(0 0.5rem 0.5rem #0d1117);
-
+    max-width: 350px;
 }
 
 /* Image Box */

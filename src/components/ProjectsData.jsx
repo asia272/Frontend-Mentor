@@ -130,7 +130,7 @@ export const challenges = [
         image: "/static-projects/junior/fylo-data-storage-component-master/desktop-preview.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/static_projects/junior/fylo-data-storage-component-master/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static_projects/junior/fylo-data-storage-component-master",
-        level: "intermediate"
+        level: "junior"
     },    
     {
         title: "Calculator App",
@@ -141,9 +141,12 @@ export const challenges = [
     },
     {
         title: "contact Form",
-        image: "",
+        image: "dfsd",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/contact-form/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/contact-form",
-        level: "intermediate"
+        level: "junior"
     }
 ];
+export const btns = ["all","newbie", "junior", "intermediate"];
+
+
