@@ -58,7 +58,7 @@ main h1 span {
 }
 .searchSolution {
     width: 60%;
-    border: 1px solid #ccc; /* A default border */
+    border: 1px solid #ccc;
     border-radius: 33px;
     padding: 20px;
     outline: none;

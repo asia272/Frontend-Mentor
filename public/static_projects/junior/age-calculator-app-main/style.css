@@ -19,10 +19,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: var(--Off-white);
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
+    gap: 2rem;
 }
 
 .main {
@@ -43,7 +45,9 @@ body {
     width: 78%;
     position: relative;
 }
-
+i{
+    color: var(--Purple);
+}
 input {
     display: block;
     width: 100%;
