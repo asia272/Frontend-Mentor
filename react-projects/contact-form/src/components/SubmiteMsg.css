@@ -10,7 +10,6 @@
     top: 2%;
     opacity: 1;
     visibility: visible;
-    animation: fadeOut 5s ease-in;
     display: flex;
     flex-direction: column;
     gap: 0.57rem;
@@ -28,24 +27,3 @@
     gap: 0.3rem;
 }
 
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-
-    40% {
-        opacity: 0.3;
-    }
-
-    60% {
-        opacity: 0.4;
-
-    }
-    70%{
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}

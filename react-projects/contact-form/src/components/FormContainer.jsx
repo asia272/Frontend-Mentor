@@ -30,9 +30,8 @@ const FormContainer = () => {
     return (
         <>
             <form onSubmit={handleSubmit(formSubmit)}>
-            {/* {formData && <SubmiteMsg formData={formData} onClose={() => setFormData(null)} />} */}
-            <SubmiteMsg formData={formData} onClose={() => setFormData(null)}
- />
+            {formData && <SubmiteMsg formData={formData} onClose={() => setFormData(null)} />}
+         
                 <h1>Contact Us</h1>
                 {/* First Name */}
                 <div className='fname'>
