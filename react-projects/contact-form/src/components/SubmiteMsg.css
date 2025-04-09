@@ -1,0 +1,51 @@
+.submit-msg-box {
+    display: block;
+    position: absolute;
+    background-color:  hsl(187, 24%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 12px;
+    transform: translate(50%);
+    right: 50%;
+    top: 2%;
+    opacity: 1;
+    visibility: visible;
+    animation: fadeOut 5s ease-in;
+    display: flex;
+    flex-direction: column;
+    gap: 0.57rem;
+}
+.submit-msg-box span{
+    color: var(--white);
+    font-weight: 500;
+}
+.submit-msg-box p{
+    color: var( --grey-500) !important;
+    font-size: 15px;
+}
+.icon-box{
+    display: flex;
+    gap: 0.3rem;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0.3;
+    }
+
+    60% {
+        opacity: 0.4;
+
+    }
+    70%{
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
