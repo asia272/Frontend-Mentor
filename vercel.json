@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/static_projects/(.*)",
-      "destination": "/public/static_projects/$1"
+      "source": "/static-projects/(.*)",
+      "destination": "/public/static-projects/$1"
     },
     {
       "source": "/react-projects/:project",
