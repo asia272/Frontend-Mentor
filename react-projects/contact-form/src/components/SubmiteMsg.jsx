@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react';
 import success_icon from "../assets/images/icon-success-check.svg";
 import "./SubmiteMsg.css";
 
-const SubmiteMsg = ({ formData ,onClose}) => {
+const SubmiteMsg = ({ formData, onClose }) => {
     const [isVisible, setIsVisible] = useState(true);
 
     useEffect(() => {
+        let timer;
         setIsVisible(true);
         if (formData) {
-            const timer = setTimeout(() => {
+            timer = setTimeout(() => {
                 setIsVisible(false);
                 onClose()
             }, 5000);
-            return () => clearTimeout(timer);
         }
-    }, [formData, onClose]); 
+        return () => clearTimeout(timer);
+    }, [formData, onClose]);
 
     return (
         isVisible && (

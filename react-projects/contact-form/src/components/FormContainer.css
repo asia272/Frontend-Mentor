@@ -35,7 +35,7 @@ form {
   gap: 1.55rem;
   padding: 2.33rem;
   background-color: var(--white);
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 span {
@@ -180,5 +180,7 @@ textarea+p,
   .sQuery {
     width: 100%;
   }
+  body{
+    padding: 1rem;
+  }
 }
-
