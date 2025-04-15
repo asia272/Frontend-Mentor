@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
 import { useForm } from 'react-hook-form';
 import "./utilite.css";
 import uploadSvg from "../assets/images/icon-upload.svg"
+import React, { useState, useRef } from 'react';
+
 
 const Form = ({ setUserData }) => {
   const { register, handleSubmit, formState: { errors }, clearErrors } = useForm();
   const [image, setImage] = useState(null)
+  const fileInputRef = useRef(null);
+
 
   const onSubmit = (data) => {
     console.log(data);
@@ -35,22 +38,30 @@ const Form = ({ setUserData }) => {
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
           {/* avatar section */}
+
           <div>
             <label htmlFor="avatar">Upload Avatar</label>
-            <div className='avater-box'>
-              <input type="file"
+            <div
+              className='avater-box'
+              onClick={() => fileInputRef.current.click()} 
+            >
+              <input
+                type="file"
                 accept="image/*"
-                {...register("avatar",
-                  { required: "Please choose an avatar" })
-
-                }
+                {...register("avatar", { required: "Please choose an avatar" })}
                 onChange={handleFileChange}
-                className='hidden-file' />
+                className='hidden-file'
+                ref={fileInputRef}
+              />
               <img src={image ? image : uploadSvg} alt="Preview" />
             </div>
-            {errors.avatar ? <p className="error">{errors.avatar.message}</p> : <p> Upload your photo (JPG or, PNG, max size, 500KB). </p>}
-
+            {errors.avatar ? (
+              <p className="error">{errors.avatar.message}</p>
+            ) : (
+              <p>Upload your photo (JPG or PNG, max size 500KB).</p>
+            )}
           </div>
+
           {/* Name section */}
           <div>
             <label htmlFor="name">Name</label>

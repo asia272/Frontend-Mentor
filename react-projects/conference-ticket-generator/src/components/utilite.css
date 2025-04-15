@@ -108,6 +108,10 @@ form button{
   font-weight: 500;
   cursor: pointer;
 }
+.hidden-file {
+  visibility: hidden;
+}
+
 form button:hover{
   background-color: var(--orange-700);
 }
@@ -130,7 +134,7 @@ form label{
   display: block;
   margin: 1rem 0 1rem 0;
   text-align: center;
-  background-color: var(--color-background-overlay);
+  background-color: var(--overlay-color);
   border-image-source: url(../assets/images/border.png);
   border-image-repeat: round;
   border-image-slice: 33%;
@@ -138,6 +142,7 @@ form label{
   border-image-outset: 0px;
   border-radius: 15px;
   position: relative;
+
 }
 .avater-box input{
   border: none;
