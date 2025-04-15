@@ -145,6 +145,13 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/contact-form/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/contact-form",
         level: "junior"
+    },
+    {
+        title: "Conference Ticket Generator",
+        image: "/react-projects/conference-ticket-generator/design/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/conference-ticket-generator/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/conference-ticket-generator",
+        level: "junior"
     }
 ];
 export const btns = ["all","newbie", "junior", "intermediate"];
