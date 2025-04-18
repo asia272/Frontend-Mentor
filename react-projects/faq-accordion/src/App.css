@@ -81,6 +81,7 @@ main {
     font-size: 16px;
     color: var(--purple-600);
     margin-top: 20px;
+    line-height: 1.5;
 }
 /* Mobile view */
 @media (max-width: 650px) {
