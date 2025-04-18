@@ -83,7 +83,8 @@ form {
   flex-direction: column;
   padding: 1rem;
   max-width: 700px;
-  gap: 2rem;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 form label{
   font-weight: 500;
@@ -203,7 +204,7 @@ form label{
 .squigglyBottom {
   width: 700px;
   max-width: 100%;
-  bottom: 0;
+  bottom: 0 !important;
   left: -2em;
 }
 

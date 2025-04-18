@@ -75,7 +75,7 @@ const Form = ({ setUserData }) => {
           <div>
             <label htmlFor="email">Email Address</label>
             <input {...register("email", { required: "Email address is required" })}
-              type="text" id='name'
+              type="text" id='email'
               placeholder='example@emial.com'
               className={errors.email && "input-error"} />
             {errors.email && <p className='error'>{errors.email.message}</p>}
