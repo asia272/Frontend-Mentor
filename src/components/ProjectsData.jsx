@@ -92,16 +92,16 @@ export const challenges = [
     },
     {
         title: "Faq-accordion",
-        image: "/static-projects/newbie/product-preview-card-component-main/design/desktop-preview.jpg",
+        image: "/react-projects/faq-accordion/design/desktop-design.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/faq-accordion/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/faq-accordion",
         level: "newbie"
     },
     {
         title: "Rating Component",
-        image: "/static-projects/newbie/product-preview-card-component-main/design/desktop-preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/faq-accordion/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/faq-accordion",
+        image: "/react-projects/interactive-rating-component/design/desktop-design.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/interactive-rating-component/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/interactive-rating-component",
         level: "newbie"
     },
     {
