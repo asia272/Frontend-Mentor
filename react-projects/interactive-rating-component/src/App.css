@@ -33,7 +33,7 @@ body {
 
 /* main box of App.jsx */
 main {
-  background-color: var(--grey-900);
+  background-color: hsl(210, 22%, 13%);
   padding: 2rem;
   max-width: 380px;
   min-height: 400px;
@@ -91,6 +91,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  color:var(--grey-500);
 }
 .submit-btn {
   width: 100% !important;
@@ -99,11 +100,11 @@ p {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 900;
+  color: black;
 }
 
 .submit-btn:hover {
   background-color: var(--white);
-  color: black;
 }
 /* Rating result part 2 */
 .result-container {
