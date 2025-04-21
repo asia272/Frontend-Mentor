@@ -98,6 +98,13 @@ export const challenges = [
         level: "newbie"
     },
     {
+        title: "Rating Component",
+        image: "/static-projects/newbie/product-preview-card-component-main/design/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/faq-accordion/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/faq-accordion",
+        level: "newbie"
+    },
+    {
         title: "Advice Generator App",
         image: "/static-projects/junior/advice-generator-app-main/design/desktop-preview.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/junior/advice-generator-app-main/",
