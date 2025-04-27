@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-gray: hsl(0, 0%, 86%);
+    --Smokey-gray: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Off-white);
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    gap: 2rem;
+}
+
+.main {
+    background-color: var(--White);
+    padding: 3rem;
+    border-radius: 14px;
+    border-bottom-right-radius: 10rem;
+    display: flex;
+    gap:2.55rem;
+    max-width: 650px;
+    flex-direction: column;
+    min-width:300px ;
+}
+
+.inputs-box {
+    display: flex;
+    gap: 1rem;
+    width: 78%;
+    position: relative;
+}
+i{
+    color: var(--Purple);
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 0.66rem 0.88rem;
+    font-size: 32px;
+    font-weight: 900;
+    border-radius: 8px;
+    border: 1px solid var(--Light-gray);
+    margin-top: 5px;
+}
+
+input:focus {
+    outline: 1px solid var(--Purple);
+}
+
+label {
+    color: var(--Smokey-gray);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.result {
+    padding-top: 3.32rem;
+    border-top: 1px solid hsl(0, 0%, 86%);
+    display: flex;
+    flex-direction: column;
+    font-size:3rem;
+    font-weight: 800;
+    color: var(--Off-black);
+}
+
+.result span {
+    color: var(--Purple);
+}
+
+.calculate-btn {
+    position: absolute;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--Purple);
+    right: -125px;
+    bottom: -79px;
+}
+.calculate-btn:active {
+    background-color: var(--Off-black);
+    cursor: pointer;
+}
+.error{
+    margin-top: 5px;
+    color: red;
+    font-size: 12px;
+    font-weight:none !important;
+    font-style: italic;
+}
+@media (max-width:600px) {
+    .main{
+        width: 100%;
+        padding:3rem 1rem;
+        gap: 4rem;
+    }
+    .inputs-box{
+        width: 100%;
+    }
+    input{
+        font-size: 22px;
+    }
+    .calculate-btn{
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -102px;
+    }
+
+}
