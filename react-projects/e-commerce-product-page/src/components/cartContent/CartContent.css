@@ -1,0 +1,116 @@
+/* procduct content */
+.product-content{
+    margin-top: 1rem;
+    width: 50%;
+    padding: 1.55rem;
+}
+.product-content  .company {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    letter-spacing: 2px;
+}
+.product-content h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color:var(--very-dark-blue);
+    padding: 15px 0 20px 0;
+}
+.product-content .pra {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(219, 9%, 45%);
+    letter-spacing: 0.3px;
+}
+.price{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    color:var(--very-dark-blue)
+}
+.price span +span{
+    margin-left: 0.5rem;
+}
+.new-price{
+    font-size: 22px;
+    font-weight: 700;
+}
+.discount{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 6px;
+    font-weight: 700;
+    font-weight: 700;
+    background-color:var(--very-dark-blue)
+}
+.old-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+.btns{
+    display: flex;
+    gap: 2px;
+    margin-top: 2rem;
+}
+.count-btns{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color:var(--light-grayish-blue);
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+.count-btns span{
+    font-weight: 800;
+}
+.count-btns button{
+    background-color:inherit ;
+}
+
+.add-to-cart{
+    background-color: var(--orange);
+    padding: 0.5rem 2.77rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover{
+  background-color: hsla(26, 100%, 55%,0.7);
+}
+@media (max-width:443px) {
+    .product-content{
+        padding: 1rem;
+    }
+    .btns{
+        flex-direction: column;
+        gap: 16px;
+    }
+   .product-content h1{
+    font-size: 2.2rem;
+   }
+   .price{
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   .count-btns{
+    justify-content: space-between;
+   }
+   .product-content .company{
+    font-size: 12px;
+   }
+    
+}
+
+
+         

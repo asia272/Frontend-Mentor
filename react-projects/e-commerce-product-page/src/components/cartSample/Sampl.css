@@ -1,0 +1,120 @@
+
+/* porduct sampls images */
+.product-sampls{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+}
+.sample-images{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+.img-wrapper {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 1rem;
+}
+.img-wrapper img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 2;
+
+
+}
+/* img overlay */
+.img-wrapper::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--pale-orange);
+    opacity: 0;
+    z-index: 2000;
+    transition: all 0.1s ease-in;
+}
+/* sample active */
+.active-sample{
+    border: 2px solid var(--orange);
+    transform: scale(1);
+}
+.active-sample::before{
+    opacity: 1;
+}
+.img-wrapper:hover::before{
+opacity: 0.5;
+}
+/* Display Sample product */
+.display-sample-img img{
+    max-height: 350px;
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+.display-sample-img{
+    position: relative;
+}
+
+/* next and preview icons */
+.icons{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    /* gap: 15rem; */
+}
+.icons img{
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50% !important;
+    padding: 0.65rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+@media (max-width:773px) {
+    .product-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-content,.product-sampls{
+        width: 100%;
+    }
+
+}
+@media (max-width:450px){
+    .product-sampls{
+        padding: 0;
+        display: block;
+    }
+    .display-sample-img img {
+        border-radius: 0;
+    }
+
+    .icons img{
+        display: block;
+    }
+    .sample-images{
+        display: none;
+    }
+}

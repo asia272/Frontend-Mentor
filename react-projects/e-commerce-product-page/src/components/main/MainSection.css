@@ -1,0 +1,6 @@
+.product-container{
+    display: flex;
+    min-height:84vh;
+    width: 100%;
+    justify-content: center;
+}

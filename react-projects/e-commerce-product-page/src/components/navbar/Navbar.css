@@ -1,0 +1,162 @@
+.navbar {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    max-height: 100px;
+    max-width: 100%;
+
+}
+
+.nav-side1 {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    transition: all 0.3s ease-in;
+    z-index: 1000;
+}
+
+.nav-links li {
+    font-size: 22px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: var(--dark-grayish-blue);
+    position: relative;
+}
+
+.nav-links li ::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: var(--orange);
+    bottom: -133%;
+    left: 0;
+    cursor: pointer;
+}
+
+.nav-links li:hover ::after {
+    width: 100%;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.close-btn {
+    margin-bottom: 1.55rem;
+}
+
+.active-links {
+    left: 0px !important;
+}
+
+/* navSide 2 */
+.nav-side2 {
+    display: flex;
+    align-items:center;
+    gap: 3rem;
+}
+
+.avatar-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.avatar-img:hover {
+    outline: 2px solid var(--orange);
+}
+
+.nav-side2 img {
+    cursor: pointer;
+}
+.cart-count {
+    position: relative;
+}
+.cart-count span{
+    position: absolute;
+    background-color: var(--orange);
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    top: -10px;
+    right: -10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+   
+}
+
+@media (max-width:765px) {
+    .nav-side2 {
+        gap: 1rem;
+    }
+}
+
+@media (max-width:773px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .nav-side1 {
+        gap: 2rem;
+    }
+
+    .nav-links {
+        /* display: none; */
+        flex-direction: column;
+        position: absolute;
+        left: -300px;
+        top: 0px;
+        background-color: white;
+        height: 100vh;
+        width: 300px;
+        padding: 2rem;
+        align-items: start;
+        gap: 1rem;
+    }
+
+    .nav-links li a {
+        color: black;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .nav-links li ::after {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .overlay {
+        background-color: #0000004b;
+        overflow: hidden;
+    }
+}
+@media (max-width:450px){
+    .navbar {
+     
+        border-bottom: 0;
+    }
+}

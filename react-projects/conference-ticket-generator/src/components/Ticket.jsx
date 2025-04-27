@@ -20,7 +20,7 @@ const Ticket = ({ userData }) => {
         </div>
 
         <div className="ticket-avatar">
-          <img src={userData.avater} alt="avater" className='avater' />
+          <img src={userData.avatar} alt="avater" className='avater' />
           <div className='info'>
             <h2>{userData.fullName} </h2>
             <span>

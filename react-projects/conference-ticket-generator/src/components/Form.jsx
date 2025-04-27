@@ -5,7 +5,8 @@ import React, { useState, useRef } from 'react';
 
 
 const Form = ({ setUserData }) => {
-  const { register, handleSubmit, formState: { errors }, clearErrors } = useForm();
+  const { register, handleSubmit, formState: { errors }, clearErrors, setValue } = useForm();
+
   const [image, setImage] = useState(null)
   const fileInputRef = useRef(null);
 
@@ -13,22 +14,31 @@ const Form = ({ setUserData }) => {
   const onSubmit = (data) => {
     console.log(data);
 
-    const file = data.avatar[0];
-    const imgUrl = URL.createObjectURL(file)
+    const file = data.avatar?.[0];
+    if (!file) {
+      console.error("No file uploaded");
+      return;
+    }
+
+    const imgUrl = URL.createObjectURL(file);
 
     setUserData({
       fullName: data.fullName,
       email: data.email,
       github: data.github,
       date: Date(),
-      avater: imgUrl
+      avatar: imgUrl
     })
   };
   const handleFileChange = (e) => {
     const file = e.target.files[0];
-    setImage(URL.createObjectURL(file));
-    clearErrors("avatar");
+    if (file) {
+      setImage(URL.createObjectURL(file));
+      setValue("avatar", e.target.files, { shouldValidate: true }); 
+      clearErrors("avatar");
+    }
   };
+
   return (
     <>
       <div className='main-container'>
@@ -43,14 +53,14 @@ const Form = ({ setUserData }) => {
             <label htmlFor="avatar">Upload Avatar</label>
             <div
               className='avater-box'
-              onClick={() => fileInputRef.current.click()} 
+              onClick={() => fileInputRef.current.click()}
             >
               <input
                 type="file"
                 accept="image/*"
                 {...register("avatar", { required: "Please choose an avatar" })}
                 onChange={handleFileChange}
-                className='hidden-file'
+                className="hidden-file"
                 ref={fileInputRef}
               />
               <img src={image ? image : uploadSvg} alt="Preview" />
@@ -74,7 +84,13 @@ const Form = ({ setUserData }) => {
           {/* Email section */}
           <div>
             <label htmlFor="email">Email Address</label>
-            <input {...register("email", { required: "Email address is required" })}
+            <input {...register("email", {
+              required: "Email address is required",
+              pattern: {
+                value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                message: "Please enter a valid email address",
+              },
+            })}
               type="text" id='email'
               placeholder='example@emial.com'
               className={errors.email && "input-error"} />
