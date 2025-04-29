@@ -86,8 +86,8 @@ export const challenges = [
     {
         title: "Results Summary Card",
         image: "/static-projects/newbie/results-summary-component-main/preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/newbie/four-card-feature-section-master/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static-projects/newbie/four-card-feature-section-master/",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/newbie/results-summary-component-main/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static-projects/newbie/results-summary-component-main/",
         level: "newbie"
     },
     {

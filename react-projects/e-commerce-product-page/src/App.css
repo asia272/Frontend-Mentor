@@ -42,7 +42,7 @@ a{
   color: black;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 471px) {
   body {
     padding: 0 0rem;
   }

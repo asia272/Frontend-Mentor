@@ -9,6 +9,7 @@
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 10px;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .cart-container h3 {
@@ -75,7 +76,7 @@
     cursor: pointer;
 }
 
-@media (max-width:440px) {
+@media (max-width:471px) {
     .cart-container {
         max-width: 400px;
         width: 100%;

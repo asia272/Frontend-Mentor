@@ -7,14 +7,14 @@ import './MainSection.css';
 
 const MainSection = () => {
     return (
-        <>
-            <div className="product-container">
-                <Sampl />
-                <CartContent />
-               
-            </div>
-            
-        </>
+
+        <main className="product-container">
+            <Sampl />
+            <CartContent />
+
+        </main>
+
+
     );
 };
 

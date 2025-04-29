@@ -29,7 +29,7 @@ const Navbar = () => {
         setIsCart(!isCart)
     }
     return (
-        <div className='navbar'>
+        <nav className='navbar'>
             <div className='nav-side1'>
                 <div className="menu-toggle" onClick={menuToggle}>
                     <img src={iconMenu} alt="logo" />
@@ -70,7 +70,8 @@ const Navbar = () => {
             </div>
             {isCart &&  <Cart/>}
            
-        </div>
+        </nav>
+    
     )
 }
 
