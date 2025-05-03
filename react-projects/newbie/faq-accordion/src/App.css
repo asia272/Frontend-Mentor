@@ -67,6 +67,9 @@ main {
     height: auto;
 
 }
+.qs-container img{
+    cursor: pointer;
+}
 .qs{
     font-size: 18px;
     font-weight: 600;
