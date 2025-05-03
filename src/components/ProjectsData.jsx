@@ -92,16 +92,16 @@ export const challenges = [
     },
     {
         title: "Faq-accordion",
-        image: "/react-projects/faq-accordion/design/desktop-design.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/faq-accordion/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/faq-accordion",
+        image: "/react-projects/newbie/faq-accordion/design/desktop-design.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/faq-accordion",
         level: "newbie"
     },
     {
         title: "Rating Component",
-        image: "/react-projects/interactive-rating-component/design/desktop-design.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/interactive-rating-component/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/interactive-rating-component",
+        image: "/react-projects/newbie/interactive-rating-component/design/desktop-design.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/interactive-rating-component",
         level: "newbie"
     },
     {
@@ -155,16 +155,16 @@ export const challenges = [
     },
     {
         title: "contact Form",
-        image: "/react-projects/contact-form/design/desktop-preview.jpg",
+        image: "/react-projects/junior/contact-form/design/desktop-preview.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/contact-form/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/contact-form",
         level: "junior"
     },
     {
         title: "Conference Ticket Generator",
-        image: "/react-projects/conference-ticket-generator/design/preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/conference-ticket-generator/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/conference-ticket-generator",
+        image: "/react-projects/junior/conference-ticket-generator/design/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/juniorconference-ticket-generator",
         level: "junior"
     }
 ];
