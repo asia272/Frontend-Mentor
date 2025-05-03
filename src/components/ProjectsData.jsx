@@ -145,13 +145,6 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/junior/fylo-data-storage-component-master/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static-projects/junior/fylo-data-storage-component-master",
         level: "junior"
-    },    
-    {
-        title: "Calculator App",
-        image: "/static-projects/intermediate/calculator-app-main/design/desktop-preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/intermediate/calculator-app-main/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static-projects/intermediate/calculator-app-main",
-        level: "intermediate"
     },
     {
         title: "contact Form",
@@ -166,8 +159,23 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/conference-ticket-generator",
         level: "junior"
-    }
+    },
+    {
+        title: "Calculator App",
+        image: "/static-projects/intermediate/calculator-app-main/design/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/static-projects/intermediate/calculator-app-main/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/public/static-projects/intermediate/calculator-app-main",
+        level: "intermediate"
+    },
+    {
+        title: "E-commerce Product Page",
+        image: "/react-projects/intermediate/e-commerce-product-page/assets/design/desktop-preview.jpg",
+
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/e-commerce-product-page/",
+        codeLink: " https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/intermediate/e-commerce-product-page",
+        level: "intermediate"
+    },
 ];
-export const btns = ["all","newbie", "junior", "intermediate"];
+export const btns = ["all", "newbie", "junior", "intermediate"];
 
 
