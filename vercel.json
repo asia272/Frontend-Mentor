@@ -5,12 +5,12 @@
       "destination": "/public/static-projects/$1"
     },
     {
-      "source": "/react-projects/:project",
-      "destination": "/react-projects/:project/dist/index.html"
+      "source": "/react-projects/:level/:project",
+      "destination": "/react-projects/:level/:project/index.html"
     },
     {
-      "source": "/react-projects/:project/(.*)",
-      "destination": "/react-projects/:project/dist/$1"
+      "source": "/react-projects/:level/:project/(.*)",
+      "destination": "/react-projects/:level/:project/$1"
     },
     {
       "source": "/",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
