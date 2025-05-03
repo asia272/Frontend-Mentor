@@ -156,15 +156,15 @@ export const challenges = [
     {
         title: "contact Form",
         image: "/react-projects/junior/contact-form/design/desktop-preview.jpg",
-        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/contact-form/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/contact-form",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/contact-form",
         level: "junior"
     },
     {
         title: "Conference Ticket Generator",
         image: "/react-projects/junior/conference-ticket-generator/design/preview.jpg",
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/",
-        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/juniorconference-ticket-generator",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/conference-ticket-generator",
         level: "junior"
     }
 ];
