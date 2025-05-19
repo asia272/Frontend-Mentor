@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.light-theme {
+  /* Light Theme */
+  --todo-bg: hsl(0, 0%, 98%);
+  --todo-text: #000000;
+  --body-bg: hsl(236, 33%, 92%);
+  --completed-todo-text: hsl(233, 11%, 84%);
+  --dark-grayish-blue: hsl(236, 9%, 61%);
+  --very-dark-grayish-blue: hsl(235, 19%, 35%);
+  --hr-bg:hsl(235, 21%, 11%);
+}
+
+.dark-theme{
+  --body-bg: hsl(235, 21%, 11%);
+  --todo-bg: hsl(235, 24%, 19%);
+  --todo-text:hsl(236, 33%, 92%);
+  --light-grayish-blue-dark: hsl(234, 39%, 85%);
+  --completed-todo-text: hsl(233, 14%, 35%);
+  --dark-grayish-blue-dark: hsl(234, 11%, 52%);
+  --hr-bg: hsl(233, 14%, 35%);
+  --very-dark-grayish-blue-2: hsl(237, 14%, 26%);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: var(--body-bg);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.2em 0.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: transparent;
+
+}
