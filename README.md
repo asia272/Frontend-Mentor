@@ -101,6 +101,5 @@ Hi! I'm **Asia**, a front-end developer passionate about clean UI, React develop
 ## 📬 Contact
 
 - GitHub: [@asia272](https://github.com/asia272)
-- Email: [asiaofficial272@gmail.com](mailto:asiaofficial272@gmail.com)
 
 
