@@ -35,6 +35,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 - 🔵 **Junior Level** – Beginner-friendly projects with moderate complexity  
 - 🔴 **Intermediate Level** – More challenging projects for skill improvement  
 
+## **Newbie Level**
+
 | Project Title             | Live Demo Link                                                                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Card Preview Challenge    | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/product-preview-card-component-main/)  |
@@ -53,6 +55,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | FAQ Accordion (React)     | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)                         |
 | Rating Component (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/)          |
 
+## **Junior Level**
+
 | Project Title                       | Live Demo Link                                                                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Advice Generator App                | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/advice-generator-app-main/)                  |
@@ -63,6 +67,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Fly Storage App                     | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/fylo-data-storage-component-master/)         |
 | Contact Form (React)                | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/)                                |
 | Conference Ticket Generator (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/)                 |
+
+## *Intermediate Level**
 
 | Project Title                   | Live Demo Link                                                                                             |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
