@@ -52,6 +52,7 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Results Summary Card      | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/results-summary-component-main/)       |
 | FAQ Accordion (React)     | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)                         |
 | Rating Component (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/)          |
+
 | Project Title                       | Live Demo Link                                                                                                           |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | Advice Generator App                | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/advice-generator-app-main/)                  |
