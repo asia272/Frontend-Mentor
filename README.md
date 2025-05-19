@@ -1,24 +1,3 @@
-# Frontend Mentor Challenges by Asia 🚀  
-
-This repository contains my solutions for **Frontend Mentor** challenges. 
-
-## 📌 Challenge Categories  
-- 🟢 **Newbie Level** – Simple projects for absolute beginners  
-- 🔵 **Junior Level** – Beginner-friendly projects with moderate complexity  
-- 🔴 **Intermediate Level** – More challenging projects for skill improvement  
-
-## 🛠️ Technologies Used  
-- **Frontend**: HTML, CSS, JavaScript , React
-
-##  Features  
-- **Tooltip Integration** – Added tooltips to enhance user interaction and provide additional information when hovering over buttons.  
-- **Search Solutions by Name** – Users can search for solutions by typing in the name of the project. This provides an easy way to find specific solutions in the repository.  
-- **Filter Solutions by Level** – Added functionality to filter challenges by difficulty level (Newbie, Junior, Intermediate). This helps to quickly navigate through projects based on complexity.
-
-## 🚀 Live Demo  
-You can view the live demo of the project here:  
-[Live Demo](https://frontend-mentor-mauve.vercel.app/)
-
 # 💻 Frontend Mentor Solutions by Asia
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -45,45 +24,49 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 
 ---
 
-## 🚀 Featured Projects
 
-Here are some highlighted projects from the repository:
+##  Features  
+- **Tooltip Integration** – Added tooltips to enhance user interaction and provide additional information when hovering over buttons.  
+- **Search Solutions by Name** – Users can search for solutions by typing in the name of the project. This provides an easy way to find specific solutions in the repository.  
+- **Filter Solutions by Level** – Added functionality to filter challenges by difficulty level (Newbie, Junior, Intermediate). This helps to quickly navigate through projects based on complexity.
 
-### ✅ Newbie Level
-- [Product Preview Card](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/product-preview-card-component-main/)
-- [QR Code Component](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/qr-code-component-main/)
-- [Results Summary Component](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/results-summary-component-main/)
-- [FAQ Accordion (React)](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)
+## 📌 Challenge Categories  
+- 🟢 **Newbie Level** – Simple projects for absolute beginners  
+- 🔵 **Junior Level** – Beginner-friendly projects with moderate complexity  
+- 🔴 **Intermediate Level** – More challenging projects for skill improvement  
 
-### ⚡ Junior Level
-- [Advice Generator App](https://frontend-mentor-mauve.vercel.app/static-projects/junior/advice-generator-app-main/)
-- [Testimonials Grid Section](https://frontend-mentor-mauve.vercel.app/static-projects/junior/testimonials-grid-section-main/)
-- [Contact Form (React)](https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/)
+| Project Title             | Live Demo Link                                                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Card Preview Challenge    | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/product-preview-card-component-main/)  |
+| Social Link Profile       | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/social-links-profile-main/)            |
+| Blog Preview Card         | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/blog-preview-card-main/)               |
+| Stats Preview Card        | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/stats-preview-card-component-main/)    |
+| QR Code Component         | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/qr-code-component-main/)               |
+| NFT Preview Card          | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/nft-preview-card-component-main/)      |
+| Profile Card              | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/profile-card-component-main/)          |
+| 3 Column Preview Card     | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/3-column-preview-card-component-main/) |
+| Single Price Grid         | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/single-price-grid-component-master/)   |
+| Order Summary Component   | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/order-summary-component-main/)         |
+| Recipe Page               | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/recipe-page-main/)                     |
+| Four Card Feature Section | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/four-card-feature-section-master/)     |
+| Results Summary Card      | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/results-summary-component-main/)       |
+| FAQ Accordion (React)     | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)                         |
+| Rating Component (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/)          |
+| Project Title                       | Live Demo Link                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Advice Generator App                | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/advice-generator-app-main/)                  |
+| Testimonials Grid Section           | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/testimonials-grid-section-main/)             |
+| Coding Bootcamp Testimonials Slider | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/coding-bootcamp-testimonials-slider-master/) |
+| Age Calculator App                  | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/age-calculator-app-main/)                    |
+| CSS Grid Layout Project             | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/bento-grid-main/)                            |
+| Fly Storage App                     | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/fylo-data-storage-component-master/)         |
+| Contact Form (React)                | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/)                                |
+| Conference Ticket Generator (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/)                 |
 
----
-
-## 🛠 Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- React.js
-- Vite
-- Git & GitHub
-- Vercel (for hosting)
-
----
-
-## 💡 How to Contribute
-
-1. Fork the repository
-2. Clone it locally
-3. Create a new branch: `git checkout -b feature-name`
-4. Make your changes and commit: `git commit -m "Add feature"`
-5. Push to the branch: `git push origin feature-name`
-6. Open a pull request
-
----
+| Project Title                   | Live Demo Link                                                                                             |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Calculator App                  | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/intermediate/calculator-app-main/)    |
+| E-commerce Product Page (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/e-commerce-product-page/) |
 
 ## 📜 License
 
