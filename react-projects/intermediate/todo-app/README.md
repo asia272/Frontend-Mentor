@@ -4,7 +4,7 @@ This is my React-based solution to the [Todo App challenge on Frontend Mentor](h
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site](https://your-vercel-deployment-url.vercel.app/react-projects/[your-folder-name]/)
+🔗 [View Live Site](https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/todo-app/)
 
 
 
