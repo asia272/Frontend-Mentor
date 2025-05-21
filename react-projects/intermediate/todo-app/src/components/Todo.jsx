@@ -10,23 +10,44 @@ import moonIcon from "../assets/images/icon-moon.svg";
 
 
 const Todo = () => {
-    const { todos, addTodo, deleteTodo, toggleTodo } = useContext(TodoContext);
+    const { todos, addTodo, deleteTodo, toggleTodo, setTodos, active, theme, themeToggle } = useContext(TodoContext);
     const [newTodo, setNewTodo] = useState("")
-    const [theme, setTheme] = useState(false)
-    let themeToggle = () => {
-        setTheme((prev) => !prev)
-    }
+
+
+    const [displayTodos, setDisplayTodos] = useState([]);
+
+    useEffect(() => {
+        setDisplayTodos(todos);
+    }, [todos]);
     useEffect(() => {
         let root = document.documentElement;
         if (theme) {
             root.classList.add("light-theme")
             root.classList.remove("dark-theme")
-        }else{
-           root.classList.add("dark-theme")
-           root.classList.remove("light-theme")
+        } else {
+            root.classList.add("dark-theme")
+            root.classList.remove("light-theme")
         }
 
-    },[theme])
+    }, [theme])
+
+    let allTodos = () => {
+        setDisplayTodos(todos);
+    }
+    let activeTodos = () => {
+        let activeTodos = todos.filter((todo) => !todo.completed);
+        setDisplayTodos(activeTodos)
+    }
+    let completedTodos = () => {
+        let completed = todos.filter((todo) => todo.completed);
+        setDisplayTodos(completed)
+    }
+    let clearCompleted = () => {
+        let clearCompletetTodos = todos.filter((todo) => !todo.completed);
+        setTodos(clearCompletetTodos)
+        setDisplayTodos(todos)
+    }
+
     return (
         <>
             <div className="top-img" >
@@ -44,7 +65,11 @@ const Todo = () => {
                             alt="icon" />
                     </div>
                 </div>
-                <form onSubmit={() => addTodo(newTodo)}>
+                <form onSubmit={e =>
+                (e.preventDefault(),
+                    setNewTodo(""),
+                    addTodo(newTodo))}>
+
                     <div className="circle">
 
                     </div>
@@ -56,7 +81,7 @@ const Todo = () => {
                 <div className="display-todos">
                     {/* Example Display */}
                     <ul>
-                        {todos.map(todo => (
+                        {displayTodos.map(todo => (
                             <>
                                 <li key={todo.id}>
                                     <div className="todo"
@@ -79,15 +104,15 @@ const Todo = () => {
                         ))}
                     </ul>
                     <div className="todo-footer">
-                        <span>item left</span>
+                        <span> {active.length} item left</span>
                         <div className="center">
-                            <button>All</button>
-                            <button>Active</button>
-                            <button>Completed</button>
+                            <button onClick={allTodos}>All</button>
+                            <button onClick={activeTodos}>Active</button>
+                            <button onClick={completedTodos}>Completed</button>
                         </div>
 
                         <div>
-                            <button>
+                            <button onClick={clearCompleted}>
                                 Clear Completed
                             </button>
                         </div>

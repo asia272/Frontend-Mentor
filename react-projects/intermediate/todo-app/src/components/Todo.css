@@ -133,6 +133,9 @@ li {
 .center button{
     font-size: 16px;
 }
+.todo-footer button:active{
+    transform: scale(0.7);
+}
 .todo-footer button:hover{
     color: var(--todo-text);
 }

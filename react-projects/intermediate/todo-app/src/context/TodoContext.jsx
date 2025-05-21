@@ -4,20 +4,36 @@ export const TodoContext = createContext();
 
 export const TodoProvider = ({ children }) => {
 
-    const [todos, setTodos] = useState(() => {
-        try {
-          const storedTodos = localStorage.getItem("todos");
-          return storedTodos ? JSON.parse(storedTodos) : [];
-        } catch (error) {
-          console.error("Invalid JSON in localStorage for 'todos'", error);
-          return [];
-        }
-      });
-      
-      
+  const [active, setActive] = useState([]);
+
+  const [todos, setTodos] = useState(() => {
+    try {
+      const storedTodos = localStorage.getItem("todos");
+      return storedTodos ? JSON.parse(storedTodos) : [];
+    } catch (error) {
+      console.error("Invalid JSON in localStorage for 'todos'", error);
+      return [];
+    }
+  });
+
+const [theme, setTheme] = useState(() => {
+  const savedTheme = localStorage.getItem("theme");
+  return savedTheme ? JSON.parse(savedTheme) : false;
+});
+
+const themeToggle = () => {
+  setTheme(prev => !prev);
+};
+
+useEffect(() => {
+  localStorage.setItem("theme", JSON.stringify(theme));
+}, [theme]);
+
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
+    const activeTodos = todos.filter(todo => !todo.completed);
+    setActive(activeTodos);
   }, [todos]);
 
   const addTodo = (text) => {
@@ -37,7 +53,19 @@ export const TodoProvider = ({ children }) => {
   };
 
   return (
-    <TodoContext.Provider value={{ todos, addTodo, deleteTodo, toggleTodo }}>
+    <TodoContext.Provider
+      value={{
+        todos,
+        setTodos,
+        addTodo,
+        deleteTodo,
+        toggleTodo,
+        active,
+        theme,
+        setTheme,
+        themeToggle
+      }}
+    >
       {children}
     </TodoContext.Provider>
   );
