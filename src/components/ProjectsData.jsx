@@ -175,6 +175,13 @@ export const challenges = [
         codeLink: " https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/intermediate/e-commerce-product-page",
         level: "intermediate"
     },
+    {
+        title: "Todo App",
+        image: "/react-projects/intermediate/todo-app/assets/design/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/todo-app/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/intermediate/todo-app",
+        level: "intermediate"
+    }
 ];
 export const btns = ["all", "newbie", "junior", "intermediate"];
 
