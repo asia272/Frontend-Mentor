@@ -181,6 +181,13 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/todo-app/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/intermediate/todo-app",
         level: "intermediate"
+    },
+    {
+        title: "Social Proof Section",
+        image: "/react-projects/newbie/social-proof-section/assets/design/desktop-preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/newbie/social-proof-section/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/social-proof-section",
+        level: "newbie"
     }
 ];
 export const btns = ["all", "newbie", "junior", "intermediate"];
