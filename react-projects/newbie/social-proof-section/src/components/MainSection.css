@@ -132,7 +132,23 @@ section {
     .rating-box p {
         margin: 8px;
     }
+
+}
+
+@media (max-width:430px) {
     .card{
         max-width: 100%;
     }
 }
+
+
+Include some of the tools and techniques you used to complete the challenge
+
+Social Proof Section
+Characters remaining: 50
+Repository URL*
+Read our complete guide to submitting solutions for help creating a repository
+
+https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/social-proof-section
+Live site URL*
+Read more about our recommended free hosting options for help creating a repository
