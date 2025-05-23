@@ -4,7 +4,7 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 
 ## 🚀 Live Demo
 
-[🔗 View Live Site](https://your-live-demo-link.com)
+[🔗 View Live Site](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/social-proof-section/)
 
 ## 📦 Built With
 
