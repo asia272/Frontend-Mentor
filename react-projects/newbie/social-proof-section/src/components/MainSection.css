@@ -22,20 +22,24 @@ section {
     width: 40%;
 
 }
-.section-one-content h1{
+
+.section-one-content h1 {
     color: hsl(300, 43%, 22%);
-        font-size: 2.75rem;
+    font-size: 2.75rem;
 }
-.section-one-content p{
+
+.section-one-content p {
     font-size: 15px;
     line-height: 1.4;
     color: hsl(303, 10%, 53%);
 }
-.section-one-content+div{
+
+.section-one-content+div {
     display: flex;
     flex-direction: column;
     gap: 1.44rem;
 }
+
 .rating-box {
     display: flex;
     align-items: center;
@@ -43,7 +47,8 @@ section {
     margin-left: -2rem;
 
 }
-.rating-box p{
+
+.rating-box p {
     color: hsl(300, 43%, 22%);
     font-weight: 700;
 }
@@ -67,7 +72,7 @@ section {
 
 .card {
     border-radius: 8px;
-    background-color:hsl(300, 43%, 22%);
+    background-color: hsl(300, 43%, 22%);
     padding: 1.55rem;
     color: hsl(0, 0%, 100%);
 }
@@ -82,8 +87,9 @@ section {
 .img-box h5 {
     margin: 1px 0 4px 0;
 }
-.img-box p{
-    color:  hsl(333, 80%, 67%);
+
+.img-box p {
+    color: hsl(333, 80%, 67%);
 }
 
 .img-box img {
@@ -92,13 +98,16 @@ section {
     width: 50px;
     border-radius: 50%;
 }
-.card{
+
+.card {
     max-width: 250px;
 }
+
 .card+div {
     transform: translateY(1rem);
 }
-.img-box+p{
+
+.img-box+p {
     line-height: 1.5;
 }
 
@@ -133,22 +142,15 @@ section {
         margin: 8px;
     }
 
+    .card {
+        min-width: 250px;
+    }
+
 }
 
 @media (max-width:430px) {
-    .card{
+    .card {
+
         max-width: 100%;
     }
 }
-
-
-Include some of the tools and techniques you used to complete the challenge
-
-Social Proof Section
-Characters remaining: 50
-Repository URL*
-Read our complete guide to submitting solutions for help creating a repository
-
-https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/social-proof-section
-Live site URL*
-Read more about our recommended free hosting options for help creating a repository
