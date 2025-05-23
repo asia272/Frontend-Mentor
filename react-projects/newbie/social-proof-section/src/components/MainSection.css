@@ -92,6 +92,9 @@ section {
     width: 50px;
     border-radius: 50%;
 }
+.card{
+    max-width: 250px;
+}
 .card+div {
     transform: translateY(1rem);
 }
@@ -128,5 +131,8 @@ section {
 
     .rating-box p {
         margin: 8px;
+    }
+    .card{
+        max-width: 100%;
     }
 }
