@@ -1,0 +1,119 @@
+.planet-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        'planet-img planet-content'
+        'planet-img planet-content'
+        'planet-info planet-info';
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../public/assets/background-stars.svg");
+    background-size: cover;
+}
+
+.planet-img {
+    grid-area: planet-img;
+    /* background-color: red; */
+}
+
+.planet-content {
+    background-color: transparent;
+    grid-area: planet-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.planet-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planet-img img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+.planet-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+}
+
+.planet-content p {
+    line-height: 1.5;
+}
+
+.planet-info {
+    background-color: transparent;
+    grid-area: planet-info;
+}
+
+.planet-page h1 {
+    color: white;
+}
+
+.planet-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.planet-info div {
+    width: 25.5rem;
+    height: 6.8rem;
+    padding: 0 1.4rem;
+    border: 1px solid #838391;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-title {
+    font-size: 0.77rem;
+    color: #838391;
+}
+
+.info-data {
+    font-family: Antonio, sans-serif;
+    font-size: 2rem;
+
+}
+
+.activeLink {
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width:666px) {
+    .planet-page {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'planet-img'
+            'planet-content'
+            'planet-info';
+        ;
+    }
+
+    .planet-content {
+        text-align: center;
+    }
+
+    .planet-info div {
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    .planet-info {
+        padding: 1rem 0;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,139 @@
+.logo-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-box p {
+    font-family: Antonio, sans-serif;
+    font-size: 1.88rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid #838391;
+    padding: 0 0 1rem 0;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-toggle button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.55rem;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    color: #838391;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li span {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    margin-right: 0.56rem;
+    display: none;
+}
+
+.mercury span {
+    background-color: var(--mercury);
+}
+
+.venus span {
+    background-color: var(--venus);
+}
+
+.earth span {
+    background-color: var(--earth);
+}
+
+.mars span {
+    background-color: var(--mars);
+}
+
+.jupiter span {
+    background-color: var(--jupiter);
+}
+
+.saturn span {
+    background-color: var(--saturn);
+}
+
+.uranus span {
+    background-color: var(--uranus);
+}
+
+.neptune span {
+    background-color: var(--neptune);
+}
+
+@media (max-width:775px) {
+    nav {
+        border-bottom: none;
+        position: relative;
+    }
+
+    nav ul {
+        display: none;
+
+    }
+
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul li span {
+        display: block;
+    }
+
+    ul li a {
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        text-decoration: none;
+        border-bottom: .5px solid #838391;
+    }
+
+    .active {
+        position: absolute;
+        margin-top: 0.55rem;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        display: block;
+        left: 0;
+        right: 0;
+        top: 80%;
+        background-color: #070724;
+    }
+
+
+}

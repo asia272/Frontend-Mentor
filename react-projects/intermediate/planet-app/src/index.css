@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mercury: #419EBB;
+  --venus: #EDA249;
+  --earth: #6F2ED6;
+  --mars: #D14C32;
+  --jupiter: #D83A34;
+  --saturn: #CD5120;
+  --uranus: #1EC2A4;
+  --neptune: #2D68F0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #070724;
+  color: white;
+      font-family: Antonio, sans-serif;
+}
+
+@media (max-width:778px) {
+  body {
+    padding: 1.44rem;
+  }
+}
