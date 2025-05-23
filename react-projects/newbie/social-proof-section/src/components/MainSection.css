@@ -147,10 +147,8 @@ section {
     }
 
 }
-
-@media (max-width:430px) {
-    .card {
-
+@media (max-width:375px) {
+    .card{
         max-width: 100%;
     }
 }
