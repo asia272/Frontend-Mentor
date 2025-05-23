@@ -1,0 +1,132 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+section {
+    display: flex;
+    padding: 2rem;
+}
+
+/* section One */
+.section-one {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one-content {
+    width: 40%;
+
+}
+.section-one-content h1{
+    color: hsl(300, 43%, 22%);
+        font-size: 2.75rem;
+}
+.section-one-content p{
+    font-size: 15px;
+    line-height: 1.4;
+    color: hsl(303, 10%, 53%);
+}
+.section-one-content+div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.44rem;
+}
+.rating-box {
+    display: flex;
+    align-items: center;
+    gap: 1.78rem;
+    margin-left: -2rem;
+
+}
+.rating-box p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.rating-box+div {
+    margin: 0;
+}
+
+.rating-box+div+div {
+    margin-left: 2rem;
+}
+
+.rating-box img {
+    margin: 0 0.33rem;
+}
+
+/* section Two */
+.section-two {
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 8px;
+    background-color:hsl(300, 43%, 22%);
+    padding: 1.55rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.img-box {
+    display: flex;
+    align-items: center;
+    gap: 1.33rem;
+}
+
+.img-box p,
+.img-box h5 {
+    margin: 1px 0 4px 0;
+}
+.img-box p{
+    color:  hsl(333, 80%, 67%);
+}
+
+.img-box img {
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.card+div {
+    transform: translateY(1rem);
+}
+.img-box+p{
+    line-height: 1.5;
+}
+
+.card+div+div {
+
+    transform: translateY(2rem);
+}
+
+@media (max-width:688px) {
+    .section-one-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 1.22rem;
+    }
+
+    .rating-box {
+        flex-direction: column;
+        gap: 0;
+        margin-left: 0 !important;
+        margin-bottom: 2.22rem !important;
+    }
+
+    .section-one-content+div {
+        margin: 2rem 0 0.8rem 0;
+    }
+
+    .rating-box p {
+        margin: 8px;
+    }
+}
