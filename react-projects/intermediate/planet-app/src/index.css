@@ -14,12 +14,14 @@
   --uranus: #1EC2A4;
   --neptune: #2D68F0;
 }
-
+html{
+  background-color: #070724;
+}
 body {
   min-width: 320px;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #070724;
+  background-color: #070724 !important;
   color: white;
       font-family: Antonio, sans-serif;
 }
