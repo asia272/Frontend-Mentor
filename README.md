@@ -78,6 +78,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Calculator App                  | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/intermediate/calculator-app-main/)    |
 | E-commerce Product Page (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/e-commerce-product-page/) |
+| Todo App (React)              | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/intermediate/todo-app/)                  |
+
 
 ## 📜 License
 
