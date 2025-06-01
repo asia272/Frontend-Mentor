@@ -6,7 +6,7 @@ This is a simple React-based Extension Manager built as a solution to a Frontend
 
 ## 🚀 Live Demo
 
-[🔗 View Live](https://your-live-site-link.vercel.app) <!-- Replace with your actual deployed link -->
+[🔗 View Live](https://frontend-mentor-mauve.vercel.app/react-projects/junior/browser-extension-manger/)
 
 ## 💡 Features
 
