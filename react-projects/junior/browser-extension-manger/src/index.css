@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light Theme */
+.light-theme {
+  --background-linear: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+  --text: hsl(227, 75%, 14%);
+  --card-bg: hsl(200, 60%, 99%);
+  --desc-color: hsl(226, 11%, 37%);
+  --btn-bg: hsl(200, 60%, 99%);
+  --card-border: hsl(217, 61%, 90%);
+  --btn-border-focus: white;
+  --theme-btn-hover-bg: hsl(0, 0%, 78%);
+  --btn-hover-color: white;
+  --active-btn-color: white;
+}
+
+
+/* Dark Theme */
+.dark-theme {
+  --background-linear: linear-gradient(180deg, #040918 0%, #091540 100%);
+  --text: hsl(0, 0%, 93%);
+  --card-bg: hsl(226, 25%, 17%);
+  --desc-color: hsl(0, 0%, 78%);
+  --btn-bg: hsl(226, 25%, 17%);
+  --btn-border-focus: #091540;
+  --card-border: hsl(226, 11%, 37%);
+  --btn-hover-color: white;
+  --active-btn-color: hsl(227, 75%, 14%);
+}
+
+body {
+  padding: 3% 4%;
+  background: var(--background-linear);
+  font-family: sans-serif;
+  min-height: 100vh;
+  min-width: 300px;
+}
+
+button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--btn-bg);
+  cursor: pointer;
+  color: var(--text);
+  border: 1px solid var(--card-border) !important;
+}
+
+button:focus {
+  outline: 2px solid salmon;
+  outline-offset: 2px;
+  border-color: var(--btn-border-focus) !important;
+
+}
+
+button:hover {
+  background-color: hsl(3, 71%, 56%);
+}
+
+@media (max-width:450px) {
+  body {
+    padding: 1rem;
+  }
+}

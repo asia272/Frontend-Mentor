@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1% 2%;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+}
+header button{
+    border-radius: 12px;
+    padding: 0.77rem;
+}
+header button:hover{
+    background-color: var(--theme-btn-hover-bg);
+}
+header img {
+    display: block;
+    color: white !important;
+}
+
+@media (max-width:500px) {
+    header{
+        padding: 1rem;
+    }
+    header .logo img {
+        width: 126px;
+    }
+}
