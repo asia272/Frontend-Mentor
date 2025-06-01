@@ -188,6 +188,13 @@ export const challenges = [
         liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/newbie/social-proof-section/",
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/social-proof-section",
         level: "newbie"
+    },
+    {
+        title: "Browser Extensions",
+        image: "/react-projects/junior/browser-extension-manger/assets/design/desktop-design-dark.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/browser-extension-manger/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/browser-extension-manger",
+        level: "junior"
     }
 ];
 export const btns = ["all", "newbie", "junior", "intermediate"];

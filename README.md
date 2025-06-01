@@ -54,6 +54,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Results Summary Card      | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/newbie/results-summary-component-main/)       |
 | FAQ Accordion (React)     | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)                         |
 | Rating Component (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/)          |
+| Social Proof Section (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/social-proof-section/)            |
+
 
 ## **Junior Level**
 
@@ -67,6 +69,8 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Fly Storage App                     | [Live Demo](https://frontend-mentor-mauve.vercel.app/static-projects/junior/fylo-data-storage-component-master/)         |
 | Contact Form (React)                | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/)                                |
 | Conference Ticket Generator (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/)                 |
+| Browser Extensions (React)    | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/browser-extension-manger/)         |
+
 
 ## *Intermediate Level**
 
