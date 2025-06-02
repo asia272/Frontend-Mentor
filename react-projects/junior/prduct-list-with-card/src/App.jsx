@@ -1,9 +1,10 @@
 import React from 'react'
-import MainSection from './components/MainSection'
 
 const App = () => {
   return (
-    <MainSection />
+    <div>
+      <h1>Product List with Card</h1>
+    </div>
   )
 }
 

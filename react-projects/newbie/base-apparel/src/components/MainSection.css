@@ -1,0 +1,160 @@
+.logo {
+    position: fixed;
+    top: 12%;
+ 
+}
+
+p {
+    color: hsl(0, 36%, 70%);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.main-section h1 {
+    font-size: 3.5em;
+    line-height: 1.1;
+    letter-spacing: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 6rem;
+    color: hsl(0, 6%, 24%);
+
+}
+
+h1 span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+}
+
+.main-section .left-side {
+    padding: 0 3rem 0 0;
+}
+
+.main-section .right-side img {
+    display: block;
+    height: 100vh;
+}
+
+
+input {
+    padding: 0.96rem 1.77rem;
+    border-radius: 33px;
+    font-size: 18px;
+    color: hsl(0, 6%, 24%);
+    border: 1px solid hsl(0, 36%, 70%);
+}
+.error{
+   color: hsl(0, 93%, 68%);
+   margin-left: 2rem;
+}
+input::placeholder {
+    color: hsl(0, 36%, 70%);
+}
+
+button {
+    border-radius: 33px;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 1px solid hsl(0, 93%, 68%);
+}
+
+form {
+    position: relative;
+}
+
+.submit-btn {
+    position: absolute;
+    top: 1%;
+    right: -0%;
+    /* bottom:-0%; */
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-error {
+    position: absolute;
+    top: 14%;
+    right: 35%;
+    bottom: 12%;
+}
+
+.submit-btn:active {
+    box-shadow: 0 4px 8px hsla(0, 74%, 74%, 0.4);
+
+
+    transform: scale(1.1);
+    background: linear-gradient(135deg, hsl(0, 79%, 87%), hsl(0, 75%, 85%));
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4rem;
+    gap: 1rem;
+    align-items: start;
+    justify-content: center;
+}
+
+@media (max-width:773px) {
+    .logo {
+        position: relative;
+        padding: 2rem ;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    .main-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-section .right-side img {
+        display: block;
+        width: 100%;
+        background-size: contain;
+        height: auto;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .main-section .left-side {
+        padding:0 !important;
+    }
+    .content {
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        padding-bottom:2rem ;
+    }
+    .content p{
+        padding: 0 2.11rem;
+    }
+}
+@media (max-width:667px) {
+        .main-section .right-side img {
+            width: 100vw;
+        }
+}
+@media (min-width:775px) {
+       .main-section .right-side img {
+        height: 100vh;
+        width: 50;
+       }
+}

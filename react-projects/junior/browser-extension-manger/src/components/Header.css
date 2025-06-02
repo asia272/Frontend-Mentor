@@ -6,6 +6,8 @@ header {
     background-color: var(--card-bg);
     border-radius: 20px;
 }
+
+
 header button{
     border-radius: 12px;
     padding: 0.77rem;

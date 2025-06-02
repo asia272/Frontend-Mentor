@@ -23,7 +23,10 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="./images/logo.svg" alt="logo" />
+        {isDarkMode ?
+          <img src="./images/logo-dark.svg" alt="darklogo" className='dark-logo' /> :
+          <img src="./images/logo.svg" alt="logo" />}
+
       </div>
       <button onClick={() => setIsDarkMode(!isDarkMode)}>
         <img src={isDarkMode ? sunIcon : moonIcon} alt="" />
