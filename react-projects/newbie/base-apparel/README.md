@@ -1,12 +1,35 @@
-# React + Vite
+# Base Apparel Coming Soon Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive coming soon landing page built with **React** and **Vite**, based on a Frontend Mentor challenge.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+[🌐 View Live Project](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/base-apparel/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- Responsive layout for mobile and desktop
+- Email validation with error handling
+- SVG logo color switches with theme
+- Interactive user feedback
+- Mobile-first design
+- Clean and modern UI
+
+---
+
+## 🛠️ Technologies Used
+
+- React
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- SVG manipulation for dark/light themes
+
+
+
+
+

@@ -23,11 +23,9 @@ const MainSection = () => {
             setError(true);
         } else {
             setError(false);
-            alert("")
-            console.log("Email submitted:", email);
+            alert("Email submitted successfully");
             setEmail("")
         }
-
 
     };
     return (
