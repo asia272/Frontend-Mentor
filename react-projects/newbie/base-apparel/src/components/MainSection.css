@@ -75,7 +75,6 @@ form {
     position: absolute;
     top: 1%;
     right: -0%;
-    /* bottom:-0%; */
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     display: flex;
     align-items: center;
