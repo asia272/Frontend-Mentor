@@ -196,6 +196,22 @@ export const challenges = [
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/browser-extension-manger",
         level: "junior"
     }
+    ,
+    {
+        title: "Agency Landing Page",
+        image: "/react-projects/junior/sunny-side/assets/design/preview.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/junior/sunny-side/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/junior/sunny-side",
+        level: "junior"
+    }
+    ,
+    {
+        title: "Base Apparel",
+        image: "/react-projects/newbie/base-apparel/assets/desktop-design.jpg",
+        liveDemo: "https://frontend-mentor-mauve.vercel.app/react-projects/newbie/base-apparel/",
+        codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/base-apparel",
+        level: "newbie"
+    }
 ];
 export const btns = ["all", "newbie", "junior", "intermediate"];
 

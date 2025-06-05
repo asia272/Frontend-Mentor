@@ -55,6 +55,7 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | FAQ Accordion (React)     | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/faq-accordion/)                         |
 | Rating Component (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/interactive-rating-component/)          |
 | Social Proof Section (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/social-proof-section/)            |
+| Base Apparel (React)         | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/newbie/base-apparel/)                     |
 
 
 ## **Junior Level**
@@ -70,6 +71,7 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Contact Form (React)                | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/contact-form/)                                |
 | Conference Ticket Generator (React) | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/conference-ticket-generator/)                 |
 | Browser Extensions (React)    | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/browser-extension-manger/)         |
+| Agency Landing Page (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/sunny-side/)                        |
 
 
 ## *Intermediate Level**
