@@ -1,9 +1,9 @@
 import React from 'react';
 import "./MainSection.css"
-
 import Clients from './Clients';
 import GalleryImages from './GalleryImages';
 import Footer from './Footer';
+
 const MainSection = () => {
     return (
         <div>
@@ -18,9 +18,9 @@ const MainSection = () => {
                 </div>
                 <div className="img-side">
                     <picture>
-                        <source media="(max-width: 767px)" srcSet="/assets/images/mobile/image-transform.jpg" />
-                        <source media="(min-width: 768px)" srcSet="/assets/images/desktop/image-transform.jpg" />
-                        <img src="/assets/images/desktop/image-transform.jpg" alt="Transform your brand" />
+                        <source media="(max-width: 767px)" srcSet="./assets/images/mobile/image-transform.jpg" />
+                        <source media="(min-width: 768px)" srcSet="./assets/images/desktop/image-transform.jpg" />
+                        <img src="./assets/images/desktop/image-transform.jpg" alt="Transform your brand" />
                     </picture>
 
                 </div>
@@ -30,9 +30,9 @@ const MainSection = () => {
 
                 <div className="img-side">
                     <picture>
-                        <source media="(max-width: 767px)" srcSet="/assets/images/mobile/image-stand-out.jpg" />
-                        <source media="(min-width: 768px)" srcSet="/assets/images/desktop/image-stand-out.jpg" />
-                        <img src="/assets/images/desktop/image-stand-out.jpg" alt="Stand out product" />
+                        <source media="(max-width: 767px)" srcSet="./assets/images/mobile/image-stand-out.jpg" />
+                        <source media="(min-width: 768px)" srcSet="./assets/images/desktop/image-stand-out.jpg" />
+                        <img src="./assets/images/desktop/image-stand-out.jpg" alt="Stand out product" />
                     </picture>
 
                 </div>
@@ -49,9 +49,9 @@ const MainSection = () => {
                 <section className="graphic-section">
                     <div className='graphic-img'>
                         <picture>
-                            <source media="(max-width: 767px)" srcSet="/assets/images/mobile/image-graphic-design.jpg" />
-                            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/image-graphic-design.jpg" />
-                            <img src="/assets/images/desktop/image-graphic-design.jpg" alt="image-graphic-design" />
+                            <source media="(max-width: 767px)" srcSet="./assets/images/mobile/image-graphic-design.jpg" />
+                            <source media="(min-width: 768px)" srcSet="./assets/images/desktop/image-graphic-design.jpg" />
+                            <img src="./assets/images/desktop/image-graphic-design.jpg" alt="image-graphic-design" />
                         </picture>
                     </div>
                     <div className="graphic-content">
@@ -63,9 +63,9 @@ const MainSection = () => {
                 <section className="photography-section">
                     <div className="photography-img">
                         <picture>
-                            <source media="(max-width: 767px)" srcSet="/assets/images/mobile/image-photography.jpg" />
-                            <source media="(min-width: 768px)" srcSet="/assets/images/desktop/image-photography.jpg" />
-                            <img src="/assets/images/desktop/image-photography.jpg" alt="image-photography.jpg" />
+                            <source media="(max-width: 767px)" srcSet="./assets/images/mobile/image-photography.jpg" />
+                            <source media="(min-width: 768px)" srcSet="./assets/images/desktop/image-photography.jpg" />
+                            <img src="./assets/images/desktop/image-photography.jpg" alt="image-photography.jpg" />
                         </picture>
                     </div>
                     <div className="photography-content">
