@@ -4,7 +4,7 @@ This is a React-based solution for the **[Sunny Side Agency Landing Page](https:
 
 ### 🔗 Live Demo
 
-[Visit the Live Site](https://your-vercel-domain.com/react-projects/junior/sunny-side/)
+[Visit the Live Site](https://frontend-mentor-mauve.vercel.app/react-projects/junior/sunny-side/)
 
 
 
