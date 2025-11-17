@@ -74,7 +74,7 @@ Each challenge has been carefully crafted to reflect real-world UI components, a
 | Agency Landing Page (React)  | [Live Demo](https://frontend-mentor-mauve.vercel.app/react-projects/junior/sunny-side/)                        |
 
 
-## *Intermediate Level**
+## **Intermediate Level**
 
 | Project Title                   | Live Demo Link                                                                                             |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |

@@ -212,6 +212,14 @@ export const challenges = [
         codeLink: "https://github.com/asia272/Frontend-Mentor/tree/main/react-projects/newbie/base-apparel",
         level: "newbie"
     }
+    ,
+    {
+        title: "Weather App",
+      image: "/react-projects/intermediate/weather-app/preview.jpg",
+        liveDemo: "https://weather-app-six-mocha-2yljnsbf39.vercel.app/",
+        codeLink: "https://github.com/asia272/weather-app",
+        level: "intermediate"
+    }
 ];
 export const btns = ["all", "newbie", "junior", "intermediate"];
 
