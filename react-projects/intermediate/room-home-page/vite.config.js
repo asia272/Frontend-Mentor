@@ -1,10 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { daDK } from '@mui/material/locale'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/react-projects/intermediate/e-commerce-product-page/',
   plugins: [react()],
 })
-
-
